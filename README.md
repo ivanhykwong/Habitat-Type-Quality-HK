@@ -6,7 +6,7 @@ Supplementary materials used in the following studies:
 
 ---
 
-GIS data produced:
+GIS and reference data:
 
 *   **HabitatMapHK_6class_yyyy-yyyy.tif**: Raster data (GeoTiff format) showing the 6 habitat classes mapped in this study. Pixel values range from 1 to 6 representing woodland, shrubland, grassland, barren land, built-up area, and water respectively.
   
@@ -16,7 +16,7 @@ GIS data produced:
 
 ---
 
-Computer codes used:
+Analysis codes:
 
 **Part 1: Mapping Vegetation Habitats from a Satellite Image Time-Series**
 
