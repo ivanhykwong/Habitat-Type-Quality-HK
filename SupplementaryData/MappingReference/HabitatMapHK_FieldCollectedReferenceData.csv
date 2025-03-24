@@ -1,0 +1,1090 @@
+﻿PointID,Year,Site_ID_OriginalStudy,Easting,Northing,OriginalClass,ConvertedClass
+1,1995,ABR1,834787.2,813426.4,Shrubland,Shrubland
+2,1995,ABR2,834487.5,813340.8,Shrubland,Shrubland
+3,1995,ABR3,834484.2,813591.8,Shrubland,Shrubland
+4,1995,ABR4,834734.9,813466.4,Shrubland,Shrubland
+5,1995,ABW1,836930.3,812868.4,Woodland,Woodland
+6,1995,CPK1,813830.1,827891.4,Grassland,Grassland
+7,1995,CPK2,813725.7,827881.9,Grassland,Grassland
+8,1995,CPK3,813498.9,827891.6,Shrubland,Shrubland
+9,1995,CPK4,813413.4,827871.6,Woodland,Woodland
+10,1995,HIR1,853593.5,825353.5,Shrubland,Shrubland
+11,1995,KRC1,829850,832050,Shrubland,Shrubland
+12,1995,KRC2,829826.1,832259.4,Woodland,Woodland
+13,1995,KRC3,829888.8,832193,Shrubland,Shrubland
+14,1995,LDB1,819802.9,819011.5,Grassland,Grassland
+15,1995,LIS1,827167.8,828484.7,Woodland,Woodland
+16,1995,LKG1,841330.8,841365.6,Grassland,Grassland
+17,1995,LPK1,809892.2,812270.6,Grassland,Grassland
+18,1995,LRN1,836079.8,824207.8,Woodland,Woodland
+19,1995,LRN2,836280.4,824323.9,Woodland,Woodland
+20,1995,LRN3,836592.8,824641.2,Woodland,Woodland
+21,1995,LRN4,836795.6,824673.8,Woodland,Woodland
+22,1995,LSP1,813659.9,813576,Woodland,Woodland
+23,1995,LSP2,813536.2,813607,Grassland,Grassland
+24,1995,LSP3,813271.8,813917.7,Woodland,Woodland
+25,1995,LSP4,813171.7,814141.5,Woodland,Woodland
+26,1995,MPO1,822275.4,838587.5,Grassland,Grassland
+27,1995,MPO2,822100.5,838609.8,Grassland,Grassland
+28,1995,MPO3,822090.1,838476.9,Grassland,Grassland
+29,1995,POK1,832337.2,815153.3,Woodland,Woodland
+30,1995,POK2,832290.4,815122.4,Woodland,Woodland
+31,1995,POK3,832673.3,815242.7,Woodland,Woodland
+32,1995,POK4,832704.7,815316,Woodland,Woodland
+33,1995,PTC1,851623.3,829198.3,Woodland,Woodland
+34,1995,PTC2,851743.1,829083.5,Woodland,Woodland
+35,1995,PTC3,852023.1,829060.1,Shrubland,Shrubland
+36,1995,PTC4,852138,828981,Grassland,Grassland
+37,1995,SKC1,828550,831050,Woodland,Woodland
+38,1995,SLT1,836788.6,837615.9,Woodland,Woodland
+39,1995,SLT2,836598.2,837719.3,Grassland,Grassland
+40,1995,SLT3,836558.8,837495.9,Grassland,Grassland
+41,1995,SLT4,836790.3,837505.2,Woodland,Woodland
+42,1995,SLT5,836950,837850,Grassland,Grassland
+43,1995,SLT6,836881.2,838023.8,Woodland,Woodland
+44,1995,SMW1,833809.6,828629.5,Woodland,Woodland
+45,1995,SMW2,833819.9,828613.2,Woodland,Woodland
+46,1995,SMW3,833904,828646.4,Woodland,Woodland
+47,1995,SMW4,833897.1,828698.1,Woodland,Woodland
+48,1995,SPR1,806737,811287.9,Woodland,Woodland
+49,1995,SPR2,806487.1,810505,Woodland,Woodland
+50,1995,SPR3,806286.6,810272.6,Shrubland,Shrubland
+51,1995,SPR4,806279.4,809855.3,Shrubland,Shrubland
+52,1995,SWH1,838362.9,842513,Woodland,Woodland
+53,1995,TAP1,855210.1,837854.7,Grassland,Grassland
+54,1995,TAP2,855250,837650,Shrubland,Shrubland
+55,1995,TAP3,855400.4,837497.3,Grassland,Grassland
+56,1995,TAP4,855423.8,836732.7,Grassland,Grassland
+57,1995,TLP1,827610.6,828484.4,Shrubland,Shrubland
+58,1995,TLP2,827396.4,828440.3,Grassland,Grassland
+59,1995,TLP3,824450,826850,Woodland,Woodland
+60,1995,TMS1,831037.9,830626.4,Woodland,Woodland
+61,1995,TMS2,830943.4,830750,Grassland,Grassland
+62,1995,TMS3,830949.8,830856.8,Grassland,Grassland
+63,1995,TMS4,831125.5,830840.7,Grassland,Grassland
+64,1995,TMS5,831050,830650,Woodland,Woodland
+65,1995,TPK1,836773.3,831863.7,Woodland,Woodland
+66,1995,TPK2,836674.9,831500.5,Woodland,Woodland
+67,1995,TPK3,836619.6,831629.1,Woodland,Woodland
+68,1995,TPK4,836589.4,831965.8,Shrubland,Shrubland
+69,1995,TTM1,840722.4,813459.6,Shrubland,Shrubland
+70,1995,TTM2,840428.8,813460,Shrubland,Shrubland
+71,1995,TTM3,840383.7,813667,Woodland,Woodland
+72,1995,TTM4,840300.7,813909.8,Woodland,Woodland
+73,1995,TTY1,830050,834450,Grassland,Grassland
+74,1995,TYF1,830230.2,835038.2,Woodland,Woodland
+75,2010,LF1,812338.3,810962.4,Lowland forest,Woodland
+76,2010,LF2,835419.6,814927.1,Lowland forest,Woodland
+77,2010,LF3,835654,814404.5,Lowland forest,Woodland
+78,2010,LF4,835481.2,814019.3,Lowland forest,Woodland
+79,2010,LF5,835460.8,814194.3,Lowland forest,Woodland
+80,2010,LF6,835343,814173.5,Lowland forest,Woodland
+81,2010,LF7,835161.5,813934,Lowland forest,Woodland
+82,2010,LF8,834909.5,813478.7,Lowland forest,Woodland
+83,2010,LF9,834540.1,812977.4,Lowland forest,Woodland
+84,2010,LF10,838313.3,816086.3,Lowland forest,Woodland
+85,2010,LF11,843788,825547.5,Lowland forest,Woodland
+86,2010,LF12,843941.8,825106.8,Lowland forest,Woodland
+87,2010,LF13,844004.1,824622.1,Lowland forest,Woodland
+88,2010,LF14,844530.9,822414.5,Lowland forest,Woodland
+89,2010,LF15,843941.6,823159.6,Lowland forest,Woodland
+90,2010,LF16,842866.8,829342.2,Lowland forest,Woodland
+91,2010,LF17,842661.5,830062.4,Lowland forest,Woodland
+92,2010,LF18,833609.8,837899.1,Lowland forest,Woodland
+93,2010,LF19,833436.6,838163.7,Lowland forest,Woodland
+94,2010,LF20,834255.2,839645.9,Lowland forest,Woodland
+95,2010,LF21,848717.5,818236,Lowland forest,Woodland
+96,2010,LF24,832178.7,836026.3,Lowland forest,Woodland
+97,2010,LF25,832010.8,836150.8,Lowland forest,Woodland
+98,2010,LF26,831826.2,836093.9,Lowland forest,Woodland
+99,2010,LF27,831820.9,836213.1,Lowland forest,Woodland
+100,2010,LF28,832399.2,835629.8,Lowland forest,Woodland
+101,2010,LF29,833413.1,834974.2,Lowland forest,Woodland
+102,2010,LF30,833513.7,834853.1,Lowland forest,Woodland
+103,2010,LF31,833467.8,834587.5,Lowland forest,Woodland
+104,2010,LF32,841119.9,810894.2,Lowland forest,Woodland
+105,2010,LF33,843353.7,811824.1,Lowland forest,Woodland
+106,2010,LF35,841743.7,812342.6,Lowland forest,Woodland
+107,2010,LF36,841814.9,812232.1,Lowland forest,Woodland
+108,2010,LF37,842029,812172.5,Lowland forest,Woodland
+109,2010,LF38,842394.6,811615,Shrubland,Shrubland
+110,2010,LF39,842748.2,810537.6,Shrubland,Shrubland
+111,2010,LF40,840518.7,810277.5,Lowland forest,Woodland
+112,2010,LF41,841006.1,811216.3,Lowland forest,Woodland
+113,2010,LF42,840715.7,811286.5,Lowland forest,Woodland
+114,2010,LF43,841844.9,828599.5,Lowland forest,Woodland
+115,2010,LF44,834184.3,828274.2,Plantation or Plantation/Mixed forest,Woodland
+116,2010,MSh1,812476.6,811696.7,Lowland forest,Woodland
+117,2010,MSh2,812501.8,811119.1,Shrubland,Shrubland
+118,2010,MSh3,811247.4,809960.8,Shrubland,Shrubland
+119,2010,MSh4,811329.8,810042.3,Shrubland,Shrubland
+120,2010,MSh5,811007,809714.8,Shrubland,Shrubland
+121,2010,MSh7,809296,809124,Shrubland,Shrubland
+122,2010,MSh8,835636.8,814807.2,Lowland forest,Woodland
+123,2010,MSh9,835009.5,813647.5,Lowland forest,Woodland
+124,2010,MSh10,834763.7,813405.4,Lowland forest,Woodland
+125,2010,MSh11,837952.3,815649.1,Shrubland,Shrubland
+126,2010,MSh12,837952.8,815697.4,Shrubland,Shrubland
+127,2010,MSh14,838238,816166.6,Shrubland,Shrubland
+128,2010,MSh15,838367.2,816614.9,Lowland forest,Woodland
+129,2010,MSh16,842387.3,829862.5,Shrubland,Shrubland
+130,2010,MSh17,849279.7,818791.3,Lowland forest,Woodland
+131,2010,MSh18,849364.7,818125.5,Shrubland,Shrubland
+132,2010,MSh19,848692.4,818580.6,Lowland forest,Woodland
+133,2010,MSh21,832013.3,837936.1,Lowland forest,Woodland
+134,2010,MSh22,833708,839517.6,Lowland forest,Woodland
+135,2010,MSh23,819190.3,826390,Lowland forest,Woodland
+136,2010,MSh24,819531,825318.8,Lowland forest,Woodland
+137,2010,MSh27,819790.1,826584.1,Shrubland,Shrubland
+138,2010,MSh28,818840.3,826658.9,Shrubland,Shrubland
+139,2010,MSh29,820239.7,826058.8,Shrubland,Shrubland
+140,2010,MSh30,820247.6,825376.2,Shrubland,Shrubland
+141,2010,MSh31,820432.2,825377.9,Lowland forest,Woodland
+142,2010,MSh32,827667,824145.8,Shrubland,Shrubland
+143,2010,MSh33,810748.6,826323.5,Plantation or Plantation/Mixed forest,Woodland
+144,2010,MSh36,814366.8,826771.8,Lowland forest,Woodland
+145,2010,MSh37,813494,827915,Shrubland,Shrubland
+146,2010,MSh38,841153.9,810654.7,Shrubland,Shrubland
+147,2010,MSh39,841277.9,810529.3,Shrubland,Shrubland
+148,2010,MSh40,841493.6,810552.6,Shrubland,Shrubland
+149,2010,MSh41,840589.5,810204.3,Lowland forest,Woodland
+150,2010,MSh42,840888,811165.2,Lowland forest,Woodland
+151,2010,MSh43,819354.6,835348.9,Plantation or Plantation/Mixed forest,Woodland
+152,2010,MSh45,841190.1,829836.2,Lowland forest,Woodland
+153,2010,MSh46,841301.9,829524.9,Lowland forest,Woodland
+154,2010,MSh47,841939.5,828645.9,Shrubland,Shrubland
+155,2010,MSh48,840771.6,829418,Lowland forest,Woodland
+156,2010,MSh50,848031.9,814756.8,Lowland forest,Woodland
+157,2010,MSh51,823739.4,826735.2,Shrubland,Shrubland
+158,2010,MSh52,839597.1,837007.2,Cultivation,Grassland
+159,2010,MSh53,838656.7,836548.7,Plantation or Plantation/Mixed forest,Woodland
+160,2010,MSh55,842534.4,843525.8,Shrubland,Shrubland
+161,2010,FW1,841279.6,836936.9,Grassland,Grassland
+162,2010,FW2,840667.8,836583.1,Cultivation,Grassland
+163,2010,FW3,839159.8,836579.4,Freshwater/Brackish wetland,Grassland
+164,2010,FW4,838947.3,835966.3,Freshwater/Brackish wetland,Grassland
+165,2010,FW5,839045.6,836056.6,Freshwater/Brackish wetland,Grassland
+166,2010,FW6,825696.1,839050.1,Cultivation,Grassland
+167,2010,FW8,825513.9,840933.1,Other (urban or highly modified area),Built-up area
+168,2010,FW9,825786,840602.4,Grassland,Grassland
+169,2010,FW10,823446.6,839495.4,Freshwater/Brackish wetland,Grassland
+170,2010,FW13,819622.8,836032.9,Freshwater/Brackish wetland,Grassland
+171,2010,FW14,822883.6,832878,Freshwater/Brackish wetland,Grassland
+172,2010,FW15,822744.8,832961.3,Freshwater/Brackish wetland,Grassland
+173,2010,FW16,832154.4,842910.5,Freshwater/Brackish wetland,Grassland
+174,2010,FW17,833687,843443.5,Grassland,Grassland
+175,2010,FW18,834380.5,842734.5,Grassland,Grassland
+176,2010,FW19,829436,841456.2,Freshwater/Brackish wetland,Grassland
+177,2010,FW20,833626.7,842957.4,Cultivation,Grassland
+178,2010,FW21,833769,842631.3,Freshwater/Brackish wetland,Grassland
+179,2010,FW22,834144.8,842426.3,Grassland,Grassland
+180,2010,FW23,833944.8,842292.8,Freshwater/Brackish wetland,Grassland
+181,2010,FW24,834360.6,843540.5,Freshwater/Brackish wetland,Grassland
+182,2010,FW25,831200.9,839194.4,Cultivation,Grassland
+183,2010,FW26,830804.8,841843.7,Cultivation,Grassland
+184,2010,FW28,831670.7,840901.3,Grassland,Grassland
+185,2010,FW29,823655.1,833332,Grassland,Grassland
+186,2010,FW32,826406.5,832343.9,Freshwater/Brackish wetland,Grassland
+187,2010,FW33,825797.8,831980.2,Freshwater/Brackish wetland,Grassland
+188,2010,FW34,826648.3,831739.2,Freshwater/Brackish wetland,Grassland
+189,2010,FW35,829813.1,809797.9,Freshwater/Brackish wetland,Grassland
+190,2010,FW36,829884.8,810371.3,Freshwater/Brackish wetland,Grassland
+191,2010,FW39,832328,806339.9,Freshwater/Brackish wetland,Grassland
+192,2010,FW40,832789.3,806859.7,Shrubland,Shrubland
+193,2010,FW41,816674.2,832590.2,Other (urban or highly modified area),Built-up area
+194,2010,FW42,816451.7,832070.2,Freshwater/Brackish wetland,Grassland
+195,2010,FW43,816641.6,835244.5,Freshwater/Brackish wetland,Grassland
+196,2010,FW44,816632.9,834987.4,Rural industrial storage/containers,Built-up area
+197,2010,FW45,816729.5,834433.6,Cultivation,Grassland
+198,2010,FW46,817444.8,834200.1,Other (urban or highly modified area),Built-up area
+199,2010,FW47,817238,836661.8,Grassland,Grassland
+200,2010,FW48,817156.4,836722.2,Grassland,Grassland
+201,2010,FW49,817889.4,837053,Freshwater/Brackish wetland,Grassland
+202,2010,FW52,815219.8,834636.3,Shrubland,Shrubland
+203,2010,FW55,812092.7,831615,Freshwater/Brackish wetland,Grassland
+204,2010,FW56,817423.5,813881.2,Freshwater/Brackish wetland,Grassland
+205,2010,FW57,817642.1,814711.3,Freshwater/Brackish wetland,Grassland
+206,2010,FW58,827220.1,842683.7,Freshwater/Brackish wetland,Grassland
+207,2010,FW59,826553.4,843105.1,Freshwater/Brackish wetland,Grassland
+208,2010,FW60,827324.4,843312.9,Freshwater/Brackish wetland,Grassland
+209,2010,FW61,827504.9,842918.4,Freshwater/Brackish wetland,Grassland
+210,2010,FW62,827553.3,842586.2,Freshwater/Brackish wetland,Grassland
+211,2010,FW63,827091.7,842367.1,Freshwater/Brackish wetland,Grassland
+212,2010,FW64,828071,842332.3,Freshwater/Brackish wetland,Grassland
+213,2010,FW65,828044.8,843219.6,Freshwater/Brackish wetland,Grassland
+214,2010,FW66,828594.8,843432,Freshwater/Brackish wetland,Grassland
+215,2010,FW67,828839.2,843406.9,Freshwater/Brackish wetland,Grassland
+216,2010,FW68,832217.5,844301.8,Other (urban or highly modified area),Built-up area
+217,2010,FW69,832102,844407.2,Grassland,Grassland
+218,2010,FW71,832918.4,844179,Cultivation,Grassland
+219,2010,FW72,833055.1,844162.9,Freshwater/Brackish wetland,Grassland
+220,2010,FW73,832990.4,844488.9,Freshwater/Brackish wetland,Grassland
+221,2010,FW74,833502.2,843855.7,Freshwater/Brackish wetland,Grassland
+222,2010,FW75,833238.7,843984.1,Cultivation,Grassland
+223,2010,FW76,833650.5,844391.3,Grassland,Grassland
+224,2010,FW77,833312.2,844409.8,Freshwater/Brackish wetland,Grassland
+225,2010,FW78,833760.9,844699.6,Grassland,Grassland
+226,2010,FW79,833599.6,844996.3,Other (urban or highly modified area),Built-up area
+227,2010,FW80,834246.5,845041.3,Freshwater/Brackish wetland,Grassland
+228,2010,FW81,834306.5,845207.7,Freshwater/Brackish wetland,Grassland
+229,2010,FW82,833546.6,845641.3,Grassland,Grassland
+230,2010,FW83,833725.8,845904.3,Grassland,Grassland
+231,2010,FW84,833969.6,845476.3,Cultivation,Grassland
+232,2010,FW85,833803,843797.4,Freshwater/Brackish wetland,Grassland
+233,2010,FW86,840772.5,845346.7,Cultivation,Grassland
+234,2010,FW88,840390.1,844750.6,Grassland,Grassland
+235,2010,FW89,839231.9,843574.3,Freshwater/Brackish wetland,Grassland
+236,2010,FW90,838472.7,843121.3,Freshwater/Brackish wetland,Grassland
+237,2010,FW91,840739,842584.4,Freshwater/Brackish wetland,Grassland
+238,2010,FW92,842093.2,843553.8,Freshwater/Brackish wetland,Grassland
+239,2010,P1,840034.8,828656.5,Plantation or Plantation/Mixed forest,Woodland
+240,2010,P2,847780.7,815029.8,Grassland,Grassland
+241,2010,P3,847676.2,815065.1,Grassland,Grassland
+242,2010,P4,847571.6,815168.3,Grassland,Grassland
+243,2010,P5,847371.8,816073,Plantation or Plantation/Mixed forest,Woodland
+244,2010,P6,823680,826252.1,Shrubland,Shrubland
+245,2010,P7,823624.8,826366.2,Shrubland,Shrubland
+246,2010,P8,823632,826574.9,Shrubland,Shrubland
+247,2010,P9,823663.9,826663.5,Shrubland,Shrubland
+248,2010,P10,823279.8,827363.5,Plantation or Plantation/Mixed forest,Woodland
+249,2010,P11,823121.3,827201.4,Plantation or Plantation/Mixed forest,Woodland
+250,2010,P12,822983.4,826944.2,Plantation or Plantation/Mixed forest,Woodland
+251,2010,P13,823753.7,827330.1,Plantation or Plantation/Mixed forest,Woodland
+252,2010,P14,823989.9,827424.2,Plantation or Plantation/Mixed forest,Woodland
+253,2010,P15,824715.2,827421.8,Plantation or Plantation/Mixed forest,Woodland
+254,2010,P16,824973.8,827259,Plantation or Plantation/Mixed forest,Woodland
+255,2010,P17,825272.9,827512.9,Plantation or Plantation/Mixed forest,Woodland
+256,2010,P18,825537.3,827800.4,Plantation or Plantation/Mixed forest,Woodland
+257,2010,P19,825424,828061.8,Plantation or Plantation/Mixed forest,Woodland
+258,2010,P20,828130.5,829460.3,Plantation or Plantation/Mixed forest,Woodland
+259,2010,P21,827757.9,829025.3,Plantation or Plantation/Mixed forest,Woodland
+260,2010,P22,827271.4,828703.5,Plantation or Plantation/Mixed forest,Woodland
+261,2010,P23,827143.7,829125.3,Plantation or Plantation/Mixed forest,Woodland
+262,2010,P24,826889.4,829161.3,Plantation or Plantation/Mixed forest,Woodland
+263,2010,P25,826697.9,829013.6,Plantation or Plantation/Mixed forest,Woodland
+264,2010,P26,826494.9,828793.7,Plantation or Plantation/Mixed forest,Woodland
+265,2010,P27,826071,828611.2,Plantation or Plantation/Mixed forest,Woodland
+266,2010,P28,825710,828589.3,Plantation or Plantation/Mixed forest,Woodland
+267,2010,P29,825677.6,828222.7,Plantation or Plantation/Mixed forest,Woodland
+268,2010,P30,825505.4,828178.9,Plantation or Plantation/Mixed forest,Woodland
+269,2010,P31,825223.9,828229.7,Plantation or Plantation/Mixed forest,Woodland
+270,2010,P32,825227.4,828673.8,Plantation or Plantation/Mixed forest,Woodland
+271,2010,P33,826137,828791.1,Lowland forest,Woodland
+272,2010,P34,840614.7,837560.3,Lowland forest,Woodland
+273,2010,P35,833059.2,827653.2,Plantation or Plantation/Mixed forest,Woodland
+274,2010,P36,833031.7,827891.3,Plantation or Plantation/Mixed forest,Woodland
+275,2010,P37,832729.5,826808.3,Plantation or Plantation/Mixed forest,Woodland
+276,2010,P38,833470.2,827092.9,Plantation or Plantation/Mixed forest,Woodland
+277,2010,P39,833676,827223.6,Lowland forest,Woodland
+278,2010,P40,834833.6,828544.8,Plantation or Plantation/Mixed forest,Woodland
+279,2010,P41,835159.7,828741.7,Plantation or Plantation/Mixed forest,Woodland
+280,2010,P42,835254.1,828920.1,Plantation or Plantation/Mixed forest,Woodland
+281,2010,SG2,809216.7,809143.5,Cultivation,Grassland
+282,2010,SG6,809285.5,809198.7,Cultivation,Grassland
+283,2010,SG7,838508,816666.3,Grassland,Grassland
+284,2010,SG9,838611.1,816324.1,Shrubland,Shrubland
+285,2010,SG10,844633.6,825312.3,Lowland forest,Woodland
+286,2010,SG11,844431.8,825295.6,Shrubland,Shrubland
+287,2010,SG13,844710.7,822761.1,Shrubland,Shrubland
+288,2010,SG14,844762.6,821561.4,Shrubland,Shrubland
+289,2010,SG15,842366.3,829847.6,Shrubland,Shrubland
+290,2010,SG16,849325.4,818259.2,Shrubland,Shrubland
+291,2010,SG17,831896.3,838305.6,Shrubland,Shrubland
+292,2010,SG18,833762.6,838868.1,Grassland,Grassland
+293,2010,SG19,834068,839772.9,Shrubland,Shrubland
+294,2010,SG20,833965.7,839953.9,Shrubland,Shrubland
+295,2010,SG21,833202,839351.8,Lowland forest,Woodland
+296,2010,SG22,819271.4,826976.3,Grassland,Grassland
+297,2010,SG23,819159.7,826918.1,Grassland,Grassland
+298,2010,SG24,818837,826815.5,Grassland,Grassland
+299,2010,SG25,818658.6,826855.2,Grassland,Grassland
+300,2010,SG27,817797.9,826525.9,Grassland,Grassland
+301,2010,SG28,817298.1,826558.1,Shrubland,Shrubland
+302,2010,SG30,819937.6,826879.6,Grassland,Grassland
+303,2010,SG32,819671.2,826427.5,Shrubland,Shrubland
+304,2010,SG33,819755.6,826260.2,Shrubland,Shrubland
+305,2010,SG36,827119.9,824079.6,Plantation or Plantation/Mixed forest,Woodland
+306,2010,SG37,827247.5,823550.5,Plantation or Plantation/Mixed forest,Woodland
+307,2010,SG38,827466.3,823352.1,Grassland,Grassland
+308,2010,SG39,827633,823329.9,Shrubland,Shrubland
+309,2010,SG40,828081.1,822855.5,Grassland,Grassland
+310,2010,SG41,828657.1,822995.7,Shrubland,Shrubland
+311,2010,SG42,828507.8,822937,Shrubland,Shrubland
+312,2010,SG43,828375.9,822840,Lowland forest,Woodland
+313,2010,SG44,828645.9,822469.3,Plantation or Plantation/Mixed forest,Woodland
+314,2010,SG45,810912.5,826320,Grassland,Grassland
+315,2010,SG48,816358.7,828896.7,Shrubland,Shrubland
+316,2010,SG50,816897,828387.9,Grassland,Grassland
+317,2010,SG51,813660.5,827860.8,Grassland,Grassland
+318,2010,SG52,813303.4,827652.8,Grassland,Grassland
+319,2010,SG54,813132,827411.1,Grassland,Grassland
+320,2010,SG55,813212.1,827889.5,Grassland,Grassland
+321,2010,SG56,813248.6,828080.2,Grassland,Grassland
+322,2010,SG57,813412.6,827788.7,Grassland,Grassland
+323,2010,SG58,816240.1,828253.6,Shrubland,Shrubland
+324,2010,SG59,814792,828127.8,Shrubland,Shrubland
+325,2010,SG60,816267.6,828173.8,Shrubland,Shrubland
+326,2010,SG61,816372.8,827953.4,Shrubland,Shrubland
+327,2010,SG62,816382.3,827653.7,Shrubland,Shrubland
+328,2010,SG63,816406.3,827111.5,Lowland forest,Woodland
+329,2010,SG64,816382.7,826926.3,Shrubland,Shrubland
+330,2010,SG66,816668.6,829519.6,Shrubland,Shrubland
+331,2010,SG67,816668.6,829519.6,Shrubland,Shrubland
+332,2010,SG68,816958,830219,Shrubland,Shrubland
+333,2010,SG69,816571.4,829486.2,Grassland,Grassland
+334,2010,SG70,816138.5,833624.4,Shrubland,Shrubland
+335,2010,SG71,816064.8,833486.3,Shrubland,Shrubland
+336,2010,SG72,815895.1,833471.1,Shrubland,Shrubland
+337,2010,SG73,841410.5,810279.3,Shrubland,Shrubland
+338,2010,SG76,843142.1,809490.1,Grassland,Grassland
+339,2010,SG78,824336.6,835423.4,Grassland,Grassland
+340,2010,SG79,824648.2,835304.1,Grassland,Grassland
+341,2010,SG80,824664.8,834880.9,Shrubland,Shrubland
+342,2010,SG82,841424.8,829051.3,Shrubland,Shrubland
+343,2010,SG83,841924.5,828637.8,Shrubland,Shrubland
+344,2010,SG84,841755.9,829042.3,Shrubland,Shrubland
+345,2010,SG85,841742.4,829090.9,Shrubland,Shrubland
+346,2010,SG86,840416.4,828475,Lowland forest,Woodland
+347,2010,SG88,841346.7,829945.6,Shrubland,Shrubland
+348,2010,SG89,841821.8,829771.1,Shrubland,Shrubland
+349,2010,SG90,841854.7,829695.8,Shrubland,Shrubland
+350,2010,SG91,847362.7,815478.2,Shrubland,Shrubland
+351,2010,SG92,847305.6,815650.8,Shrubland,Shrubland
+352,2010,SG94,824832.5,830142.2,Shrubland,Shrubland
+353,2010,SG96,824466.4,830693.2,Shrubland,Shrubland
+354,2010,SG97,824042.1,831242.2,Shrubland,Shrubland
+355,2010,SG98,824181.5,831437.2,Grassland,Grassland
+356,2010,SG99,824464.8,831226.3,Other (urban or highly modified area),Built-up area
+357,2010,RS9,819974.8,824310.5,Other (urban or highly modified area),Built-up area
+358,2010,RS10,820173.7,824176.6,Other (urban or highly modified area),Built-up area
+359,2010,C1,811130.1,809853.2,Other (urban or highly modified area),Built-up area
+360,2010,C2,810917.5,809722.5,Cultivation,Grassland
+361,2010,C3,809694.7,809282.6,Cultivation,Grassland
+362,2010,C4,809233.9,809165,Cultivation,Grassland
+363,2010,C6,832948.1,834981.4,Cultivation,Grassland
+364,2010,C7,832550.9,834627.3,Cultivation,Grassland
+365,2010,C8,819318.6,835492.1,Grassland,Grassland
+366,2010,C9,819389.5,835589.6,Grassland,Grassland
+367,2010,C10,819495.5,835666.3,Shrubland,Shrubland
+368,2010,C11,822111.3,833071,Cultivation,Grassland
+369,2010,C12,822090.3,832836,Cultivation,Grassland
+370,2010,C13,822131.9,832693.2,Cultivation,Grassland
+371,2010,C14,822079.8,832549.1,Cultivation,Grassland
+372,2010,C15,821804.7,832693.2,Cultivation,Grassland
+373,2010,C16,821679.7,832453.5,Cultivation,Grassland
+374,2010,C17,821727.3,832302.6,Cultivation,Grassland
+375,2010,C18,821510.9,832491,Other (urban or highly modified area),Built-up area
+376,2010,C19,824129.8,835091.6,Cultivation,Grassland
+377,2010,C20,824036.5,834944.5,Cultivation,Grassland
+378,2010,C21,824194,834997.6,Cultivation,Grassland
+379,2010,C22,823980.7,834825.1,Cultivation,Grassland
+380,2010,C23,824688,834855.1,Shrubland,Shrubland
+381,2010,C24,824803.2,834988.7,Grassland,Grassland
+382,2010,C25,824796.4,834154.4,Cultivation,Grassland
+383,2010,C26,820637.1,832318.2,Grassland,Grassland
+384,2010,C27,820730.6,831789.1,Grassland,Grassland
+385,2010,C28,820602.3,831650.2,Cultivation,Grassland
+386,2010,C29,840719,837306.3,Cultivation,Grassland
+387,2010,C30,840699.5,837307.5,Other (urban or highly modified area),Built-up area
+388,2010,C31,841009.8,836929.9,Cultivation,Grassland
+389,2010,C33,840946.5,836773.8,Cultivation,Grassland
+390,2010,C34,840597.8,836690.6,Cultivation,Grassland
+391,2010,C35,839748.6,836991.9,Cultivation,Grassland
+392,2010,C36,839094.3,836660.8,Freshwater/Brackish wetland,Grassland
+393,2010,C37,838604.7,836702,Cultivation,Grassland
+394,2010,C38,839117.1,835542.9,Other (urban or highly modified area),Built-up area
+395,2010,C39,837768.1,835847.9,Other (urban or highly modified area),Built-up area
+396,2010,C40,825712.3,838709.8,Cultivation,Grassland
+397,2010,C41,825732.3,838865.1,Cultivation,Grassland
+398,2010,C42,826549.2,840941.8,Grassland,Grassland
+399,2010,C43,826721.7,840671.1,Cultivation,Grassland
+400,2010,C44,820034.9,836179.5,Cultivation,Grassland
+401,2010,C45,822565.6,833092.3,Cultivation,Grassland
+402,2010,C46,822388.3,833240.2,Cultivation,Grassland
+403,2010,C47,822457,833336.4,Freshwater/Brackish wetland,Grassland
+404,2010,C48,822378.2,833409.8,Cultivation,Grassland
+405,2010,C49,819500.6,832451.1,Cultivation,Grassland
+406,2010,C50,819483.3,832337.3,Cultivation,Grassland
+407,2010,C51,819363,832196,Cultivation,Grassland
+408,2010,C52,829636,841197.8,Cultivation,Grassland
+409,2010,C53,829741.7,841108.6,Cultivation,Grassland
+410,2010,C54,829845.2,840970.8,Cultivation,Grassland
+411,2010,C55,830004.6,841025.4,Cultivation,Grassland
+412,2010,C56,829933.3,841191.6,Cultivation,Grassland
+413,2010,C57,829681.7,841010.2,Cultivation,Grassland
+414,2010,C58,829672.6,840797,Cultivation,Grassland
+415,2010,C59,829587.3,840844.1,Cultivation,Grassland
+416,2010,C60,829517.7,841039.4,Cultivation,Grassland
+417,2010,C61,829538.7,840730.3,Cultivation,Grassland
+418,2010,C62,833688.2,843216.1,Cultivation,Grassland
+419,2010,C63,834069.1,842900.7,Cultivation,Grassland
+420,2010,C64,834178.6,842784.1,Cultivation,Grassland
+421,2010,C65,834386.2,842660.7,Grassland,Grassland
+422,2010,C67,829791.9,841771.8,Cultivation,Grassland
+423,2010,C68,829414.8,841407.1,Cultivation,Grassland
+424,2010,C69,829817.4,841185.2,Cultivation,Grassland
+425,2010,C70,828730.6,841104.1,Cultivation,Grassland
+426,2010,C71,828939.6,840799.5,Cultivation,Grassland
+427,2010,C72,834098.8,842499.8,Grassland,Grassland
+428,2010,C73,834482.2,842602.9,Cultivation,Grassland
+429,2010,C74,830948.3,839204.8,Cultivation,Grassland
+430,2010,C76,831606.8,841911.3,Other (urban or highly modified area),Built-up area
+431,2010,C77,831745.7,841120.6,Cultivation,Grassland
+432,2010,C78,831931.2,841116.8,Cultivation,Grassland
+433,2010,C79,832294.4,840662.7,Cultivation,Grassland
+434,2010,C80,832517.3,840666.1,Cultivation,Grassland
+435,2010,C81,832813.6,840814.3,Cultivation,Grassland
+436,2010,C82,825618.2,831409,Other (urban or highly modified area),Built-up area
+437,2010,C83,825821.9,831533.8,Other (urban or highly modified area),Built-up area
+438,2010,C85,826128.5,832237.1,Cultivation,Grassland
+439,2015,ABR1,834787.2,813426.4,Shrubland,Shrubland
+440,2015,ABR2,834487.5,813340.8,Woodland,Woodland
+441,2015,ABR3,834484.2,813591.8,Woodland,Woodland
+442,2015,ABR4,834734.9,813466.4,Woodland,Woodland
+443,2015,ABW1,836930.3,812868.4,Woodland,Woodland
+444,2015,CPK1,813830.1,827891.4,Woodland,Woodland
+445,2015,CPK2,813725.7,827881.9,Shrubland,Shrubland
+446,2015,CPK3,813498.9,827891.6,Shrubland,Shrubland
+447,2015,CPK4,813413.4,827871.6,Woodland,Woodland
+448,2015,HIR1,853593.5,825353.5,Shrubland,Shrubland
+449,2015,KFBG1,830330.5,832314.6,Woodland,Woodland
+450,2015,KRC2,829826.1,832259.4,Woodland,Woodland
+451,2015,KRC3,829888.8,832193,Shrubland,Shrubland
+452,2015,LDB1,819802.9,819011.5,Grassland,Grassland
+453,2015,LIS1,827167.8,828484.7,Woodland,Woodland
+454,2015,LKG1,841330.8,841365.6,Grassland,Grassland
+455,2015,LLS1,835419.1,811126.6,Shrubland,Shrubland
+456,2015,LLS2,835601.6,811410.1,Shrubland,Shrubland
+457,2015,LLS3,835894.4,811323.7,Shrubland,Shrubland
+458,2015,LMI1,831998.7,807557.1,Shrubland,Shrubland
+459,2015,LMI2,832267.8,807459.6,Shrubland,Shrubland
+460,2015,LMI3,832052.2,807224.9,Shrubland,Shrubland
+461,2015,LPK1,809892.2,812270.6,Grassland,Grassland
+462,2015,LRN1,836079.8,824207.8,Woodland,Woodland
+463,2015,LRN2,836280.4,824323.9,Woodland,Woodland
+464,2015,LRN3,836592.8,824641.2,Woodland,Woodland
+465,2015,LRN4,836795.6,824673.8,Woodland,Woodland
+466,2015,LSP1,813659.9,813576,Woodland,Woodland
+467,2015,LSP2,813536.2,813607,Woodland,Woodland
+468,2015,LSP3,813271.8,813917.7,Woodland,Woodland
+469,2015,LSP4,813171.7,814141.5,Woodland,Woodland
+470,2015,LTT1,817074.6,813736.2,Woodland,Woodland
+471,2015,MOS1,843683.8,830510.3,Grassland,Grassland
+472,2015,MPO1,822275.4,838587.5,Grassland,Grassland
+473,2015,MPO2,822100.5,838609.8,Grassland,Grassland
+474,2015,MPO3,822090.1,838476.9,Grassland,Grassland
+475,2015,MPW1,842871.8,827243.2,Woodland,Woodland
+476,2015,MTLW1,842198.3,827772.8,Woodland,Woodland
+477,2015,NTG(1)1,831367.4,832836.9,Woodland,Woodland
+478,2015,NTG(2)1,831573.8,832246.5,Woodland,Woodland
+479,2015,PNH1,816916.1,814695.4,Woodland,Woodland
+480,2015,POK1,832337.2,815153.3,Woodland,Woodland
+481,2015,POK2,832290.4,815122.4,Woodland,Woodland
+482,2015,POK3,832673.3,815242.7,Woodland,Woodland
+483,2015,POK4,832704.7,815316,Woodland,Woodland
+484,2015,PTC1,851623.3,829198.3,Woodland,Woodland
+485,2015,PTC2,851743.1,829083.5,Woodland,Woodland
+486,2015,PTC3,852023.1,829060.1,Shrubland,Shrubland
+487,2015,PTC4,852138,828981,Grassland,Grassland
+488,2015,PTCS1,851438.4,828685.5,Shrubland,Shrubland
+489,2015,PTCS2,851329.6,828394.1,Shrubland,Shrubland
+490,2015,PTCS3,851202.3,827961,Shrubland,Shrubland
+491,2015,SLT1,836788.6,837615.9,Woodland,Woodland
+492,2015,SLT2,836598.2,837719.3,Grassland,Grassland
+493,2015,SLT3,836558.8,837495.9,Woodland,Woodland
+494,2015,SLT4,836790.3,837505.2,Woodland,Woodland
+495,2015,SLT6,836881.2,838023.8,Woodland,Woodland
+496,2015,SMW1,833809.6,828629.5,Woodland,Woodland
+497,2015,SMW2,833819.9,828613.2,Woodland,Woodland
+498,2015,SMW3,833904,828646.4,Woodland,Woodland
+499,2015,SMW4,833897.1,828698.1,Woodland,Woodland
+500,2015,SPR1,806737,811287.9,Shrubland,Shrubland
+501,2015,SPR2,806487.1,810505,Woodland,Woodland
+502,2015,SPR3,806286.6,810272.6,Shrubland,Shrubland
+503,2015,SPR4,806279.4,809855.3,Grassland,Grassland
+504,2015,SSH1,832987,834395.7,Woodland,Woodland
+505,2015,SWH1,838362.9,842513,Woodland,Woodland
+506,2015,TAP1,855210.1,837854.7,Shrubland,Shrubland
+507,2015,TAP3,855400.4,837497.3,Shrubland,Shrubland
+508,2015,TAP4,855423.8,836732.7,Grassland,Grassland
+509,2015,TKCR1,844086.1,828827.3,Grassland,Grassland
+510,2015,TLP1,827610.6,828484.4,Woodland,Woodland
+511,2015,TLP2,827396.4,828440.3,Shrubland,Shrubland
+512,2015,TMS1,831037.9,830626.4,Woodland,Woodland
+513,2015,TMS2,830943.4,830750,Grassland,Grassland
+514,2015,TMS3,830949.8,830856.8,Grassland,Grassland
+515,2015,TMS4,831125.5,830840.7,Grassland,Grassland
+516,2015,TOM1,831806.5,833609.7,Woodland,Woodland
+517,2015,TPK1,836773.3,831863.7,Woodland,Woodland
+518,2015,TPK2,836674.9,831500.5,Woodland,Woodland
+519,2015,TPK3,836619.6,831629.1,Woodland,Woodland
+520,2015,TPK4,836589.4,831965.8,Woodland,Woodland
+521,2015,TTM1,840722.4,813459.6,Shrubland,Shrubland
+522,2015,TTM2,840428.8,813460,Shrubland,Shrubland
+523,2015,TTM3,840383.7,813667,Woodland,Woodland
+524,2015,TTM4,840300.7,813909.8,Woodland,Woodland
+525,2015,TYF1,830230.2,835038.2,Woodland,Woodland
+526,2015,WCYF1,845342,829492.4,Woodland,Woodland
+527,2020,Pil01_12,840803.2,836572.9,Bare rock/ soil,Barren land
+528,2020,Pil02_02,842583.7,838144.1,Woodland,Woodland
+529,2020,Pil02_05,842104.6,838975,Shrubland,Shrubland
+530,2020,Pil02_15,841816.2,840035.2,Grassland,Grassland
+531,2020,Pil03_07,842523.7,832366.6,Marsh/ reed bed,Grassland
+532,2020,Pil03_22,844381.6,832488.6,Grassland,Grassland
+533,2020,Pil04_01,842224.6,838830.3,Woodland,Woodland
+534,2020,Pil04_02,842166,838442.5,Shrubland,Shrubland
+535,2020,Pil04_06,841991.3,838388.7,Grassland,Grassland
+536,2020,Pil04_08,841911.1,838416.2,Grassland,Grassland
+537,2020,Pil04_09,841723.1,838470.1,Grassland,Grassland
+538,2020,Pil04_10,841361.1,838525,Woodland,Woodland
+539,2020,Pil04_11,841355.4,838504.6,Grassland,Grassland
+540,2020,Pil04_12,841259.4,838502.5,Grassland,Grassland
+541,2020,Pil04_13,841108.6,838551.6,Grassland,Grassland
+542,2020,Pil04_14,840978.7,838666.8,Grassland,Grassland
+543,2020,Pil04_15,840152.4,838911.7,Grassland,Grassland
+544,2020,Pil06_02,836108.3,840392.5,Grassland,Grassland
+545,2020,Pil06_08,836703.6,839134.3,Water,Water
+546,2020,Pil06_12,836748.3,838905.9,Shrubland,Shrubland
+547,2020,Pil06_16,836825.2,838676.9,Woodland,Woodland
+548,2020,Pil06_17,836847.2,838497.5,Woodland,Woodland
+549,2020,Pil06_20,836870.3,837073.4,Grassland,Grassland
+550,2020,Pil07_01,846471.1,829637,Grassland,Grassland
+551,2020,Pil07_08,847313.5,831405.8,Woodland,Woodland
+552,2020,Pil07_10,848033.6,831721.8,Woodland,Woodland
+553,2020,Pil07_12,848132.3,831989.1,Grassland,Grassland
+554,2020,Pil07_21,847495.6,833568.5,Grassland,Grassland
+555,2020,Pil07_22,847564.7,833617.4,Grassland,Grassland
+556,2020,Pil08_12,845807.5,828358.2,Woodland,Woodland
+557,2020,Pil08_15,846216.5,828287.4,Woodland,Woodland
+558,2020,Pil08_17,845949.9,829163.5,Woodland,Woodland
+559,2020,Pil08_25,846200.8,828960.5,Woodland,Woodland
+560,2020,Pil09_06,837284.9,838953.7,Shrubland,Shrubland
+561,2020,Pil09_06,837315.2,838971.7,Shrubland,Shrubland
+562,2020,Pil09_10,837559.7,839273.4,Shrubland,Shrubland
+563,2020,Pil09_16,838133.1,839342.1,Shrubland,Shrubland
+564,2020,Pil09_19,838667.3,839260.4,Shrubland,Shrubland
+565,2020,Pil09_18,838579.9,839288.1,Grassland,Grassland
+566,2020,Pil09_20,838892.9,839224,Shrubland,Shrubland
+567,2020,Pil10_03,842669.7,830299.3,Shrubland,Shrubland
+568,2020,Pil10_05,843049.3,830423.3,Shrubland,Shrubland
+569,2020,Pil10_08,843461,830505.3,Woodland,Woodland
+570,2020,Pil10_11,843654.1,830523.8,Grassland,Grassland
+571,2020,Pil10_12,843990.1,830115,Grassland,Grassland
+572,2020,Pil10_13,844058.3,829972,Grassland,Grassland
+573,2020,Pil10_16,844020.4,829621,Grassland,Grassland
+574,2020,Pil10_18,844203.3,829196.3,Grassland,Grassland
+575,2020,Pil10_21,844060.7,828947.6,Shrubland,Shrubland
+576,2020,Pil10_22,843924.8,828787.6,Woodland,Woodland
+577,2020,Pil10_23,843896.3,828704.2,Woodland,Woodland
+578,2020,Pil10_24,843806.6,828648,Woodland,Woodland
+579,2020,Pil11_02,844228.1,827595.2,Shrubland,Shrubland
+580,2020,Pil11_07,844019.8,827681.4,Shrubland,Shrubland
+581,2020,Pil11_11,844034.8,827933.2,Grassland,Grassland
+582,2020,Pil11_12,843991.1,827986.9,Woodland,Woodland
+583,2020,Pil11_16,843881.9,828411.3,Woodland,Woodland
+584,2020,Pil11_17,844089.8,828825.9,Grassland,Grassland
+585,2020,Pil11_20,843686.5,828552.7,Woodland,Woodland
+586,2020,Pil11_21,843592,828821.4,Woodland,Woodland
+587,2020,Pil12_09,845868.7,832361.7,Woodland,Woodland
+588,2020,Pil12_16,845496.2,831409.8,Woodland,Woodland
+589,2020,Ref01_02,839454.5,842539.9,Artificial pond,Water
+590,2020,Ref01_03,839583.1,842239.1,Marsh/ reed bed,Grassland
+591,2020,Ref01_04,839491.8,842357.6,Artificial pond,Water
+592,2020,Ref01_06,839713.9,841564.6,Rural plantation,Woodland
+593,2020,Ref01_11,840032,841279,Woodland,Woodland
+594,2020,Ref01_13,840419,840852,Woodland,Woodland
+595,2020,Ref01_15,840616,840576,Woodland,Woodland
+596,2020,Ref01_16,840881,840436.1,Shrubland,Shrubland
+597,2020,Ref01_18,841110.7,840355,Grassland,Grassland
+598,2020,Ref01_20,841223.9,839818.4,Woodland,Woodland
+599,2020,Ref01_21,841150.6,839623.9,Woodland,Woodland
+600,2020,Ref01_22,841578,839547.1,Woodland,Woodland
+601,2020,Ref01_23,842064.4,840171.1,Grassland,Grassland
+602,2020,Ref02_08,851680.1,835588.5,Woodland,Woodland
+603,2020,Ref02_15,852841.6,835748.9,Grassland,Grassland
+604,2020,Ref02_19,852711,835251,Shrubland,Shrubland
+605,2020,Ref02_21,852440.3,835059.3,Woodland,Woodland
+606,2020,Ref02_22,852399.6,834941.4,Woodland,Woodland
+607,2020,Ref02_26,852842.4,834331.1,Soft shore,Barren land
+608,2020,Ref02_35,852123.4,832906.1,Grassland,Grassland
+609,2020,Ref03_01,838144.5,823444.7,Rural plantation,Woodland
+610,2020,Ref03_02,838493.8,823926.2,Rural plantation,Woodland
+611,2020,Ref03_05,838397.9,824053.6,Rural plantation,Woodland
+612,2020,Ref03_07,838234.2,824051.9,Shrubland,Shrubland
+613,2020,Ref03_10,837968.8,824151.3,Woodland,Woodland
+614,2020,Ref03_12,837847.5,824101.4,Woodland,Woodland
+615,2020,Ref03_14,837329.1,823980.5,Woodland,Woodland
+616,2020,Ref03_15,836855.7,823815.4,Woodland,Woodland
+617,2020,Ref03_18,836973.8,823432.3,Woodland,Woodland
+618,2020,Ref04_05,851177.8,828302.1,Woodland,Woodland
+619,2020,Ref04_07,851114.8,827982.2,Woodland,Woodland
+620,2020,Ref04_08,850996.3,827746.4,Grassland,Grassland
+621,2020,Ref04_09,851173,827422.5,Woodland,Woodland
+622,2020,Ref04_10,851459.6,827271.7,Woodland,Woodland
+623,2020,Ref04_15,852126.1,826831.3,Shrubland,Shrubland
+624,2020,Ref04_17,852335.8,826826.9,Shrubland,Shrubland
+625,2020,Ref04_18,852411.4,826943.9,Woodland,Woodland
+626,2020,Ref04_19,852529.5,826883.3,Shrubland,Shrubland
+627,2020,Ref04_20,852681,826926.1,Rural plantation,Woodland
+628,2020,Ref05_01,813781.3,829494.7,Woodland,Woodland
+629,2020,Ref05_01,813894.9,829547.6,Grassland,Grassland
+630,2020,Ref05_02,813226.2,829677.8,Woodland,Woodland
+631,2020,Ref05_04,813195.6,830152.4,Mixed barren land,Barren land
+632,2020,Ref05_05,812928.1,830237.6,Bare rock/ soil,Barren land
+633,2020,Ref05_06,812767.5,830311.6,Bare rock/ soil,Barren land
+634,2020,Ref05_07,812375.5,830849.5,Bare rock/ soil,Barren land
+635,2020,Ref05_08,812322.4,831504.1,Woodland,Woodland
+636,2020,Ref06_01,821597.1,829754.2,Rural plantation,Woodland
+637,2020,Ref06_02,821740.8,829465.1,Rural plantation,Woodland
+638,2020,Ref06_03,821684,829121.3,Rural plantation,Woodland
+639,2020,Ref06_05,821532.8,828655.8,Woodland,Woodland
+640,2020,Ref06_06,821494.2,828627.4,Rural plantation,Woodland
+641,2020,Ref06_08,821186.6,828485.2,Shrubland,Shrubland
+642,2020,Ref06_09,821022,828425.5,Rural plantation,Woodland
+643,2020,Ref06_10,820782.9,828256,Shrubland,Shrubland
+644,2020,Ref06_11,820493.3,828177.8,Shrubland,Shrubland
+645,2020,Ref06_12,820119.5,827676.6,Woodland,Woodland
+646,2020,Ref06_13,820055.7,827357.4,Shrubland,Shrubland
+647,2020,Ref06_14,819915.4,827092.1,Grassland,Grassland
+648,2020,Ref06_15,819958.6,827057.2,Reservoirs,Water
+649,2020,Ref06_16,819638.7,826994.4,Woodland,Woodland
+650,2020,Ref07_01,848187.7,817443.1,Woodland,Woodland
+651,2020,Ref07_03,848975.3,817144.4,Woodland,Woodland
+652,2020,Ref07_04,848940.8,816789.7,Grassland,Grassland
+653,2020,Ref07_05,848916.1,816774.2,Bare rock/ soil,Barren land
+654,2020,Ref07_06,848909.3,816747.4,Grassland,Grassland
+655,2020,Ref07_08,849196.8,817239.9,Shrubland,Shrubland
+656,2020,Ref07_09,849187.2,817158,Shrubland,Shrubland
+657,2020,Ref07_10,849181.9,817524.9,Shrubland,Shrubland
+658,2020,Ref07_12,849302.2,817657.6,Shrubland,Shrubland
+659,2020,Ref07_15,849292,818830.4,Bare rock/ soil,Barren land
+660,2020,Ref07_20,848720.2,818267.7,Woodland,Woodland
+661,2020,Ref07_21,848699.1,818213.2,Woodland,Woodland
+662,2020,Ref08_01,814748.6,817623.4,Woodland,Woodland
+663,2020,Ref08_02,814850.9,817600.7,Woodland,Woodland
+664,2020,Ref08_04,815138.1,817425.1,Woodland,Woodland
+665,2020,Ref08_05,815270.6,817335.6,Woodland,Woodland
+666,2020,Ref08_06,815469.9,817136.1,Woodland,Woodland
+667,2020,Ref08_07,815584.5,817019.4,Grassland,Grassland
+668,2020,Ref08_08,816068.7,816587.8,Shrubland,Shrubland
+669,2020,Ref08_09,816170.2,816303.2,Shrubland,Shrubland
+670,2020,Ref08_11,816441.4,815770.1,Shrubland,Shrubland
+671,2020,Ref08_12,816519.9,815730,Woodland,Woodland
+672,2020,Ref08_13,816551.2,815701.1,Rural plantation,Woodland
+673,2020,Ref08_14,816851.1,815618.6,Grassland,Grassland
+674,2020,Ref08_15,816890.9,815479.7,Woodland,Woodland
+675,2020,Ref08_16,816876,815378.8,Shrubland,Shrubland
+676,2020,Ref08_17,816947.8,815224.3,Woodland,Woodland
+677,2020,Ref08_18,817068.8,814475.8,Grassland,Grassland
+678,2020,Ref09_02,838388.7,813555.7,Shrubland,Shrubland
+679,2020,Ref09_03,838351.7,813692.4,Shrubland,Shrubland
+680,2020,Ref09_06,838682.6,814154.8,Shrubland,Shrubland
+681,2020,Ref09_08,839030.1,814399.8,Bare rock/ soil,Barren land
+682,2020,Ref09_09,839254.2,814390.3,Shrubland,Shrubland
+683,2020,Ref09_11,839328.9,814467.9,Grassland,Grassland
+684,2020,Ref09_13,839725.5,814364.2,Woodland,Woodland
+685,2020,Ref09_14,839999.1,814226.8,Rural plantation,Woodland
+686,2020,Ref09_15,839984.2,814381.3,Woodland,Woodland
+687,2020,Ref09_17,839554.9,815342.2,Woodland,Woodland
+688,2020,Ref09_18,839678.3,815501.9,Woodland,Woodland
+689,2020,Ref10_01,833422.8,814612.6,Woodland,Woodland
+690,2020,Ref10_02,833508.9,814360.5,Woodland,Woodland
+691,2020,Ref10_03,833096.2,814340.8,Woodland,Woodland
+692,2020,Ref10_04,832578,814084,Grassland,Grassland
+693,2020,Ref10_05,832501.3,814083.5,Rural plantation,Woodland
+694,2020,Ref10_06,832578.7,813795.2,Rural plantation,Woodland
+695,2020,Ref10_07,832530.7,813697,Rural plantation,Woodland
+696,2020,Ref10_08,832726.4,813559.8,Woodland,Woodland
+697,2020,Ref10_09,832930.9,813429.5,Shrubland,Shrubland
+698,2020,Ref10_10,833123.7,812971.2,Woodland,Woodland
+699,2020,Ref10_12,832965.4,812588.9,Shrubland,Shrubland
+700,2020,Ref10_13,833043,812541.1,Shrubland,Shrubland
+701,2020,Ref10_15,833710.8,812817.6,Woodland,Woodland
+702,2020,Ref11_01,812714.2,812071.7,Rural plantation,Woodland
+703,2020,Ref11_02,812793.5,811951.8,Woodland,Woodland
+704,2020,Ref11_04,812995.6,811717.1,Shrubland,Shrubland
+705,2020,Ref11_05,813166,811704.2,Shrubland,Shrubland
+706,2020,Ref11_06,813205.1,811767.5,Shrubland,Shrubland
+707,2020,Ref11_07,813448,812093.1,Shrubland,Shrubland
+708,2020,Ref11_08,813468.3,812157.2,Woodland,Woodland
+709,2020,Ref11_12,815068.8,812653.7,Woodland,Woodland
+710,2020,Ref11_14,815419.6,813095.6,Woodland,Woodland
+711,2020,Ref11_15,815570,813208,Woodland,Woodland
+712,2020,Ref11_16,815957.2,813258.2,Rural plantation,Woodland
+713,2020,Ref11_17,816643.7,813151.1,Rural plantation,Woodland
+714,2020,Ref12_02,807960.8,816610.1,Grassland,Grassland
+715,2020,Ref12_02,807986.7,816658.3,Grassland,Grassland
+716,2020,Ref12_03,807963.5,816672.9,Marsh/ reed bed,Grassland
+717,2020,Ref12_04,808238.5,816691.5,Woodland,Woodland
+718,2020,Ref12_06,808859.1,816806.6,Woodland,Woodland
+719,2020,Ref12_09,809513.2,817055.1,Shrubland,Shrubland
+720,2020,Ref13_01,822667.8,839281.3,Marsh/ reed bed,Grassland
+721,2020,Ref13_01,822303.5,838732.1,Marsh/ reed bed,Grassland
+722,2020,Ref13_02,822282.1,838742.2,Marsh/ reed bed,Grassland
+723,2020,Ref13_03,822399.9,838833,Artificial pond,Water
+724,2020,Ref13_09,822421.4,838858.6,Woodland,Woodland
+725,2020,Ref13_10,822478.1,838951,Woodland,Woodland
+726,2020,Ref13_10,822512.3,838916,Artificial pond,Water
+727,2020,Ref13_10,822497.1,838886.3,Artificial pond,Water
+728,2020,Ref13_11,822910.1,839414.8,Artificial pond,Water
+729,2020,Ref13_11,822891.8,839440.3,Artificial pond,Water
+730,2020,Ref13_12,823055.2,839539.8,Woodland,Woodland
+731,2020,Ref13_13,822865.6,835426.7,Natural watercourse,Water
+732,2020,Ref13_14,822468.5,836013.8,Woodland,Woodland
+733,2020,Ref13_14,822576.3,836082.1,Natural watercourse,Water
+734,2020,Ref13_15,821342.9,836625.1,Woodland,Woodland
+735,2020,Ref13_15,821361.6,836686,Natural watercourse,Water
+736,2020,Ref13_16,821396.2,835982.1,Marsh/ reed bed,Grassland
+737,2020,Ref13_16,821314.6,835992.4,Grassland,Grassland
+738,2020,Ref13_17,821564.4,835489.1,Rural plantation,Woodland
+739,2020,Ref13_17,821631,835417.2,Marsh/ reed bed,Grassland
+740,2020,Ref14_05,831800.6,842281.9,Grassland,Grassland
+741,2020,Ref14_06,831934.1,842218.3,Grassland,Grassland
+742,2020,Ref14_08,832313.2,841840.7,Grassland,Grassland
+743,2020,Ref14_10,833072.6,841739.4,Shrubland,Shrubland
+744,2020,Ref14_14,833736.7,841667.7,Grassland,Grassland
+745,2020,Ref14_15,833859.4,841820,Grassland,Grassland
+746,2020,Ref14_16,833930.2,841911.6,Grassland,Grassland
+747,2020,Ref14_18,834312.1,842054,Grassland,Grassland
+748,2020,Ref15_01,830975.2,830168.6,Grassland,Grassland
+749,2020,Ref15_04,830871.9,830551.3,Woodland,Woodland
+750,2020,Ref15_05,831551.3,830769.1,Shrubland,Shrubland
+751,2020,Ref15_06,831562.6,830827.2,Grassland,Grassland
+752,2020,Ref15_07,830943.5,829905.9,Grassland,Grassland
+753,2020,Ref15_09,830564.9,829824.7,Woodland,Woodland
+754,2020,Ref15_10,829953.7,830007.5,Shrubland,Shrubland
+755,2020,Ref15_11,829354,829564.9,Woodland,Woodland
+756,2020,Ref15_12,829193.4,829604.7,Woodland,Woodland
+757,2020,Ref15_13,828983.8,829447.2,Rural plantation,Woodland
+758,2020,Tru01_01,833651.3,823315.5,Woodland,Woodland
+759,2020,Tru01_02,833427.4,823284.7,Reservoirs,Water
+760,2020,Tru01_03,833384.6,823234.1,Woodland,Woodland
+761,2020,Tru01_04,832997.9,823465.8,Reservoirs,Water
+762,2020,Tru01_08,832748.4,824005.5,Rural plantation,Woodland
+763,2020,Tru01_09,832796.4,824286.5,Rural plantation,Woodland
+764,2020,Tru01_13,833147.6,825024.9,Shrubland,Shrubland
+765,2020,Tru01_14,833596.4,825328.7,Rural plantation,Woodland
+766,2020,Tru01_15,833610.7,825434.6,Shrubland,Shrubland
+767,2020,Tru01_16,833510.1,825722,Woodland,Woodland
+768,2020,Tru01_17,833385.4,825848.6,Woodland,Woodland
+769,2020,Tru01_18,833376.2,826110.2,Woodland,Woodland
+770,2020,Tru01_19,833257.3,826663.5,Reservoirs,Water
+771,2020,Tru02_01,836718.1,832159.4,Woodland,Woodland
+772,2020,Tru02_02,836657.1,832445.7,Woodland,Woodland
+773,2020,Tru02_03,836198.7,832100.4,Woodland,Woodland
+774,2020,Tru02_04,835966.9,831744.2,Woodland,Woodland
+775,2020,Tru02_05,835333.7,829536.5,Grassland,Grassland
+776,2020,Tru02_08,835136.1,828831.2,Woodland,Woodland
+777,2020,Tru02_10,834866.4,828032.1,Shrubland,Shrubland
+778,2020,Tru02_11,834132.2,828240.7,Woodland,Woodland
+779,2020,Tru02_12,833770.9,828445.6,Reservoirs,Water
+780,2020,Tru02_13,833725.3,828467,Grassland,Grassland
+781,2020,Tru03_05,843297.6,817646,Shrubland,Shrubland
+782,2020,Tru03_06,843304.5,817393.9,Rural plantation,Woodland
+783,2020,Tru03_07,843321.8,817331.5,Woodland,Woodland
+784,2020,Tru03_08,843287.6,817278.7,Shrubland,Shrubland
+785,2020,Tru03_13,843146.5,817140.7,Shrubland,Shrubland
+786,2020,Tru03_15,842989.4,816979,Woodland,Woodland
+787,2020,Tru03_17,842949.4,816923,Woodland,Woodland
+788,2020,Tru03_18,842942.3,816849.6,Rural plantation,Woodland
+789,2020,Tru03_20,842979.7,816637.5,Grassland,Grassland
+790,2020,Tru03_21,842838.7,816586.6,Woodland,Woodland
+791,2020,Tru03_22,842742.4,816515.2,Woodland,Woodland
+792,2020,Tru04_01,840717.4,824703.2,Woodland,Woodland
+793,2020,Tru04_02,840926.8,824746.1,Woodland,Woodland
+794,2020,Tru04_05,841334.5,825392.1,Shrubland,Shrubland
+795,2020,Tru04_07,841401.1,825664.1,Woodland,Woodland
+796,2020,Tru04_11,842213.1,825836.4,Shrubland,Shrubland
+797,2020,Tru04_12,842536.4,826049.2,Grassland,Grassland
+798,2020,Tru04_13,842616,826125.2,Woodland,Woodland
+799,2020,Tru04_14,842954.6,826463.6,Shrubland,Shrubland
+800,2020,Tru04_17,843440,827098.8,Rural plantation,Woodland
+801,2020,Tru04_19,843681,827089.2,Shrubland,Shrubland
+802,2020,Tru04_20,843887.8,827293.9,Woodland,Woodland
+803,2020,Tru04_21,843982.4,827269,Grassland,Grassland
+804,2020,Tru04_22,844037.9,827267.7,Grassland,Grassland
+805,2020,Tru05_01,815930.3,828448.2,Woodland,Woodland
+806,2020,Tru05_06,816695.9,828409.5,Shrubland,Shrubland
+807,2020,Tru05_08,816854.5,828364.9,Woodland,Woodland
+808,2020,Tru05_11,817031.2,828390.3,Rural plantation,Woodland
+809,2020,Tru05_13,816963.5,828663.6,Rural plantation,Woodland
+810,2020,Tru05_15,816774.2,828784,Shrubland,Shrubland
+811,2020,Tru05_20,816881.2,829480.7,Shrubland,Shrubland
+812,2020,Tru05_22,817046.9,830250.5,Reservoirs,Water
+813,2020,Tru06_02,820352.1,834768.2,Woodland,Woodland
+814,2020,Tru06_06,819807.2,834886.1,Rural plantation,Woodland
+815,2020,Tru06_07,819837.3,834946.4,Grassland,Grassland
+816,2020,Tru06_08,819798.4,834971.3,Grassland,Grassland
+817,2020,Tru06_11,819638.9,835127.2,Grassland,Grassland
+818,2020,Tru06_13,819700.2,835358.8,Grassland,Grassland
+819,2020,Tru06_16,819846.6,835766.5,Grassland,Grassland
+820,2020,Tru06_17,819839.9,836257.2,Marsh/ reed bed,Grassland
+821,2020,Tru06_18,819794.9,836315.8,Artificial pond,Water
+822,2020,Tru06_19,819716.9,836219.6,Marsh/ reed bed,Grassland
+823,2020,Tru06_20,819609.6,836189.3,Marsh/ reed bed,Grassland
+824,2020,Tru06_22,819317.2,836552.4,Artificial pond,Water
+825,2020,Tru06_24,819183.9,837295.4,Natural watercourse,Water
+826,2020,Tru06_27,819072.8,838521.6,Woodland,Woodland
+827,2020,Tru07_02,825250.8,838594.2,Grassland,Grassland
+828,2020,Tru07_03,825157.4,838574.3,Bare rock/ soil,Barren land
+829,2020,Tru07_04,825278.4,838479.9,Woodland,Woodland
+830,2020,Tru07_08,825499.5,839677,Grassland,Grassland
+831,2020,Tru07_09,825354.9,839877.6,Artificial pond,Water
+832,2020,Tru07_10,825357.2,839977.1,Artificial pond,Water
+833,2020,Tru07_11,825470.3,840141.1,Artificial pond,Water
+834,2020,Tru07_13,825615.6,840332.1,Artificial pond,Water
+835,2020,Tru07_14,825598.7,840307.5,Grassland,Grassland
+836,2020,Tru07_15,825764.4,840375,Woodland,Woodland
+837,2020,Tru07_17,826036,840590,Grassland,Grassland
+838,2020,Tru07_19,826724.1,840624,Agricultural land,Grassland
+839,2020,Tru07_20,826623.1,840595.9,Agricultural land,Grassland
+840,2020,Tru07_22,826545.1,840764.9,Agricultural land,Grassland
+841,2020,Tru08_01,810211.4,828129.6,Woodland,Woodland
+842,2020,Tru08_08,809707.5,828123.4,Rural plantation,Woodland
+843,2020,Tru08_09,809624.5,828174.2,Rural plantation,Woodland
+844,2020,Tru08_10,809623.4,828258.1,Grassland,Grassland
+845,2020,Tru08_15,809574.6,828339.5,Grassland,Grassland
+846,2020,Tru08_16,809672.3,828123.2,Shrubland,Shrubland
+847,2020,Tru08_22,810804.6,826183.1,Woodland,Woodland
+848,2020,Tru08_23,810959.9,826099.6,Rural plantation,Woodland
+849,2020,Tru09_04,827809.4,826504.3,Shrubland,Shrubland
+850,2020,Tru09_09,827502.8,826470,Rural plantation,Woodland
+851,2020,Tru09_10,827078.8,826630,Grassland,Grassland
+852,2020,Tru09_12,826941,826660.1,Grassland,Grassland
+853,2020,Tru09_13,826583.7,827288.8,Shrubland,Shrubland
+854,2020,Tru09_14,826450.9,827473.7,Rural plantation,Woodland
+855,2020,Tru09_15,825870.8,827528.8,Rural plantation,Woodland
+856,2020,Tru09_16,825675.3,827614.2,Woodland,Woodland
+857,2020,Tru09_17,824871,827235.7,Shrubland,Shrubland
+858,2020,Tru09_18,824548.5,827384.9,Rural plantation,Woodland
+859,2020,Tru09_19,824439.6,826898.3,Agricultural land,Grassland
+860,2020,Tru09_20,824424.2,826723.3,Woodland,Woodland
+861,2020,Tru09_21,824267.9,826719.5,Bare rock/ soil,Barren land
+862,2020,Tru09_22,824433.3,826291.6,Shrubland,Shrubland
+863,2020,Tru09_25,824567,825849.8,Shrubland,Shrubland
+864,2020,Tru10_01,822773.4,822320,Woodland,Woodland
+865,2020,Tru10_04,823408.6,822458.9,Shrubland,Shrubland
+866,2020,Tru10_06,823600.8,822268.4,Shrubland,Shrubland
+867,2020,Tru10_08,823608.8,822176.3,Shrubland,Shrubland
+868,2020,Tru10_09,823794.3,821737.9,Soft shore,Barren land
+869,2020,Tru10_10,823807.1,821729.6,Natural rocky shoreline,Barren land
+870,2020,Tru10_11,823701.8,821712.9,Soft shore,Barren land
+871,2020,Tru10_13,823729.9,821373.1,Woodland,Woodland
+872,2020,Tru10_16,823683.6,821376.3,Shrubland,Shrubland
+873,2020,Tru10_20,823301.3,821446.5,Shrubland,Shrubland
+874,2020,Tru10_22,822960.2,821492.6,Grassland,Grassland
+875,2020,Tru11_02,817907.3,814523.9,Soft shore,Barren land
+876,2020,Tru11_03,818152.1,814807.5,Natural rocky shoreline,Barren land
+877,2020,Tru11_04,818296.7,814869,Soft shore,Barren land
+878,2020,Tru11_07,818615.9,814786.1,Shrubland,Shrubland
+879,2020,Tru11_10,818904.1,815152.2,Rural plantation,Woodland
+880,2020,Tru11_14,819206.3,815521.2,Woodland,Woodland
+881,2020,Tru11_15,819493.9,815647.8,Woodland,Woodland
+882,2020,Tru11_16,819770.4,815681.3,Woodland,Woodland
+883,2020,Tru11_17,819773.5,815733.6,Woodland,Woodland
+884,2020,Tru11_18,820073.2,815861.4,Rural plantation,Woodland
+885,2020,Tru11_20,820178.8,816063.4,Woodland,Woodland
+886,2020,Tru12_02,815612.8,811354.8,Marsh/ reed bed,Grassland
+887,2020,Tru12_03,815846.5,811506.4,Grassland,Grassland
+888,2020,Tru12_05,815918.8,811613.5,Marsh/ reed bed,Grassland
+889,2020,Tru12_09,816359.1,811125.6,Woodland,Woodland
+890,2020,Tru12_11,817149.5,811100.7,Woodland,Woodland
+891,2020,Tru12_12,817297.7,811224.8,Grassland,Grassland
+892,2020,Tru12_14,817343.3,811403.7,Mixed barren land,Barren land
+893,2020,Tru12_17,816785.4,810716,Woodland,Woodland
+894,2020,Tru12_22,816485.7,810300.6,Shrubland,Shrubland
+895,2020,Tru12_23,816463.2,810268,Bare rock/ soil,Barren land
+896,2020,Tru13_01,806854.5,811790.9,Grassland,Grassland
+897,2020,Tru13_02,806775.6,811691.2,Rural plantation,Woodland
+898,2020,Tru13_05,806507.8,811282.9,Grassland,Grassland
+899,2020,Tru13_06,806371.2,811065.2,Woodland,Woodland
+900,2020,Tru13_08,806157.8,810767.1,Grassland,Grassland
+901,2020,Tru13_09,806060.9,810635.9,Grassland,Grassland
+902,2020,Tru13_11,805904.9,810509.6,Grassland,Grassland
+903,2020,Tru13_12,805878.8,810406.7,Shrubland,Shrubland
+904,2020,Tru13_13,805592.1,810345.5,Grassland,Grassland
+905,2020,Tru13_15,805187.3,810223.2,Shrubland,Shrubland
+906,2020,Tru13_17,804712.1,810299.7,Shrubland,Shrubland
+907,2020,Tru13_18,804481.4,810633.3,Woodland,Woodland
+908,2020,Tru13_19,804575.5,810701,Rural plantation,Woodland
+909,2020,Tru13_20,804612,811625.7,Woodland,Woodland
+910,2020,Tru13_24,803962.3,812426.9,Artificial pond,Water
+911,2020,Tru14_01,808530.5,812871.9,Woodland,Woodland
+912,2020,Tru14_02,808793.4,812874.1,Rural plantation,Woodland
+913,2020,Tru14_03,809019.3,812936.5,Woodland,Woodland
+914,2020,Tru14_04,809153.1,812992.2,Shrubland,Shrubland
+915,2020,Tru14_09,809395.3,813765.9,Woodland,Woodland
+916,2020,Tru14_10,809347.1,813889.7,Woodland,Woodland
+917,2020,Tru14_11,809255.8,814072.1,Woodland,Woodland
+918,2020,Tru14_14,808803.1,814607.9,Shrubland,Shrubland
+919,2020,Tru14_16,808503.2,814277.7,Woodland,Woodland
+920,2020,Tru14_19,808278.9,813441.8,Woodland,Woodland
+921,2020,Tru15_01,844202.8,813680.7,Woodland,Woodland
+922,2020,Tru15_02,844012.8,813299,Woodland,Woodland
+923,2020,Tru15_03,843926.9,813056.4,Shrubland,Shrubland
+924,2020,Tru15_04,843911,812973.7,Shrubland,Shrubland
+925,2020,Tru15_05,843957.7,812827.4,Shrubland,Shrubland
+926,2020,Tru15_08,843458.3,812973.9,Woodland,Woodland
+927,2020,Tru15_12,842986.1,812903.5,Woodland,Woodland
+928,2020,Tru15_14,843409.7,812470.5,Woodland,Woodland
+929,2020,Tru15_15,843528,811988.7,Soft shore,Barren land
+930,2020,Tru15_17,843683.3,811930.3,Natural rocky shoreline,Barren land
+931,2020,Tru15_19,843735,811982.5,Grassland,Grassland
+932,2020,Tru16_01,838617.2,815946.7,Woodland,Woodland
+933,2020,Tru16_02,838465.9,815871.5,Rural plantation,Woodland
+934,2020,Tru16_08,838555.5,815292.9,Woodland,Woodland
+935,2020,Tru16_10,839147.8,815350.1,Shrubland,Shrubland
+936,2020,Tru16_15,839490.2,815523.5,Woodland,Woodland
+937,2020,Tru17_01,837356.3,813178.8,Woodland,Woodland
+938,2020,Tru17_06,836307.8,813450,Shrubland,Shrubland
+939,2020,Tru17_08,836162.4,813293,Shrubland,Shrubland
+940,2020,Tru17_09,836187.7,813114.8,Shrubland,Shrubland
+941,2020,Tru17_10,836155.2,813088.8,Shrubland,Shrubland
+942,2020,Tru17_12,835666.8,813394.5,Woodland,Woodland
+943,2020,Tru17_13,835810.2,812832.4,Woodland,Woodland
+944,2020,Tru17_15,835387.4,812636.1,Shrubland,Shrubland
+945,2020,Tru17_16,835103.7,812554.1,Shrubland,Shrubland
+946,2020,Tru17_17,835014.3,812465.8,Shrubland,Shrubland
+947,2020,Tru17_19,834698.8,812567.5,Rural plantation,Woodland
+948,2020,Tru17_20,834626.2,812716.5,Reservoirs,Water
+949,2020,Tru17_21,834360,812703.9,Woodland,Woodland
+950,2020,Tru18_01,845435.4,825979.2,Woodland,Woodland
+951,2020,Tru18_02,845562.9,826069.7,Woodland,Woodland
+952,2020,Tru18_03,845741.2,826084.3,Woodland,Woodland
+953,2020,Tru18_04,845908,826015.2,Rural plantation,Woodland
+954,2020,Tru18_05,845891.7,825591.9,Woodland,Woodland
+955,2020,Tru18_06,845986.8,825312.1,Woodland,Woodland
+956,2020,Tru18_07,845974.5,825038.5,Woodland,Woodland
+957,2020,Tru18_08,846208,824699.2,Shrubland,Shrubland
+958,2020,Tru18_09,846324.4,824558.7,Woodland,Woodland
+959,2020,Tru18_10,846316.7,824518.8,Rural plantation,Woodland
+960,2020,Tru18_11,846455.8,824275.9,Shrubland,Shrubland
+961,2020,Tru18_13,846352.4,823537.5,Natural rocky shoreline,Barren land
+962,2020,Tru18_15,846425.1,824429.1,Woodland,Woodland
+963,2020,Tru18_16,845998.6,824889.5,Grassland,Grassland
+964,2020,Tru18_19,845732.3,824462.2,Woodland,Woodland
+965,2020,Tru19_02,847917.4,812827.3,Woodland,Woodland
+966,2020,Tru19_03,847437.9,812678.7,Shrubland,Shrubland
+967,2020,Tru19_06,847260.9,812343.2,Shrubland,Shrubland
+968,2020,Tru19_07,847427,811924.2,Shrubland,Shrubland
+969,2020,Tru19_11,847487.8,812706.7,Woodland,Woodland
+970,2020,Tru19_13,848200.6,813071.4,Grassland,Grassland
+971,2020,Tru19_14,848438.4,813115.1,Grassland,Grassland
+972,2020,Tru19_16,848491.3,813037.5,Rural plantation,Woodland
+973,2020,Tru19_19,848678.3,812880.4,Natural rocky shoreline,Barren land
+974,2020,Tru19_20,848498.2,813277.6,Grassland,Grassland
+975,2020,Tru19_21,848530.1,813259.7,Natural rocky shoreline,Barren land
+976,2020,Tru20_01,828108.9,842524.7,Grassland,Grassland
+977,2020,Tru20_02,828141.2,842615.6,Woodland,Woodland
+978,2020,Tru20_03,828001.2,842567.4,Marsh/ reed bed,Grassland
+979,2020,Tru20_04,827863.1,842811.8,Artificial pond,Water
+980,2020,Tru20_05,827932.2,842961.4,Marsh/ reed bed,Grassland
+981,2020,Tru20_06,828241.6,843322.9,Marsh/ reed bed,Grassland
+982,2020,Tru20_07,828344.9,843355.2,Marsh/ reed bed,Grassland
+983,2020,Tru20_08,828661.7,843392.4,Artificial pond,Water
+984,2020,Tru20_09,828911.7,843368.1,Woodland,Woodland
+985,2020,Tru20_10,829029.3,843262.8,Grassland,Grassland
+986,2020,Tru20_13,829900.2,841970,Modified watercourse,Water
+987,2020,Tru20_15,829920.8,841343.3,Agricultural land,Grassland
+988,2020,Tru21_01,827511.1,838999.3,Woodland,Woodland
+989,2020,Tru21_05,828114.6,838375.8,Grassland,Grassland
+990,2020,Tru21_06,828339.2,838322.6,Agricultural land,Grassland
+991,2020,Tru21_07,828501.8,838341.5,Grassland,Grassland
+992,2020,Tru21_09,829449.1,838396.2,Woodland,Woodland
+993,2020,Tru21_11,829331.4,838487,Grassland,Grassland
+994,2020,Tru21_14,829988.7,838011,Woodland,Woodland
+995,2020,Tru21_15,830552.8,838176.9,Grassland,Grassland
+996,2020,Tru21_17,830581.2,838467.2,Agricultural land,Grassland
+997,2020,Tru22_01,842985.5,840645.9,Woodland,Woodland
+998,2020,Tru22_02,843041.4,840673.2,Grassland,Grassland
+999,2020,Tru22_03,843197.9,840588.1,Grassland,Grassland
+1000,2020,Tru22_05,844078.2,840619.1,Shrubland,Shrubland
+1001,2020,Tru22_09,845080,840811.4,Woodland,Woodland
+1002,2020,Tru22_14,845874.7,841567.1,Woodland,Woodland
+1003,2020,Tru22_15,845912.6,841669.5,Marsh/ reed bed,Grassland
+1004,2020,Tru22_17,846003.8,841826.8,Marsh/ reed bed,Grassland
+1005,2020,Tru22_18,846057.9,841663.6,Artificial pond,Water
+1006,2020,Tru22_30,845064.7,840358.6,Woodland,Woodland
+1007,2020,Tru22_31,844676.3,840334,Woodland,Woodland
+1008,2020,Tru22_32,844506.6,840398.3,Grassland,Grassland
+1009,2020,Tru23_01,832470.8,834682.8,Woodland,Woodland
+1010,2020,Tru23_03,832680.6,834667.1,Grassland,Grassland
+1011,2020,Tru23_04,833027.2,834485.8,Woodland,Woodland
+1012,2020,Tru23_05,833070,834378.2,Woodland,Woodland
+1013,2020,Tru23_06,833141.8,834266,Woodland,Woodland
+1014,2020,Tru23_07,833125.4,834035.9,Grassland,Grassland
+1015,2020,Tru23_08,833254.6,834019,Shrubland,Shrubland
+1016,2020,Tru23_10,833488.1,833850.7,Woodland,Woodland
+1017,2020,Tru23_13,833985.8,833147.6,Woodland,Woodland
+1018,2020,Tru23_17,834609.1,833014.5,Grassland,Grassland
+1019,2020,Tru23_19,835037.4,833487.8,Rural plantation,Woodland
+1020,2020,Tru24_01,835513.7,839721.7,Woodland,Woodland
+1021,2020,Tru24_02,835449.7,839627.1,Reservoirs,Water
+1022,2020,Tru24_03,835529.7,839650.5,Rural plantation,Woodland
+1023,2020,Tru24_04,835561.4,839574.8,Rural plantation,Woodland
+1024,2020,Tru24_06,836038.5,839124.8,Woodland,Woodland
+1025,2020,Tru24_07,836026.5,838937.8,Shrubland,Shrubland
+1026,2020,Tru24_08,835789.6,838538.8,Rural plantation,Woodland
+1027,2020,Tru24_09,835767.2,838303.3,Rural plantation,Woodland
+1028,2020,Tru24_10,835756.7,837974.3,Woodland,Woodland
+1029,2020,Tru24_13,835489.4,837239.4,Shrubland,Shrubland
+1030,2020,Tru24_15,835404.7,836944.4,Shrubland,Shrubland
+1031,2020,Tru24_17,834491.3,835734.5,Woodland,Woodland
+1032,2020,Tru25_01,852619.8,831637.6,Woodland,Woodland
+1033,2020,Tru25_02,853344.6,831753,Woodland,Woodland
+1034,2020,Tru25_05,853902.7,831394.1,Woodland,Woodland
+1035,2020,Tru25_09,854660.6,831434.1,Marsh/ reed bed,Grassland
+1036,2020,Tru25_12,854390.7,831449,Soft shore,Barren land
+1037,2020,Tru25_15,852922.4,831998.4,Woodland,Woodland
+1038,2020,Tru25_16,852604.6,832019.6,Grassland,Grassland
+1039,2020,Tru25_19,852567.5,832273.1,Shrubland,Shrubland
+1040,2020,Tru25_20,852662.4,832792.6,Woodland,Woodland
+1041,2020,Tru26_01,851558.4,833118.6,Rural plantation,Woodland
+1042,2020,Tru26_02,851353.2,833107.1,Rural plantation,Woodland
+1043,2020,Tru26_03,851123.1,833063.7,Woodland,Woodland
+1044,2020,Tru26_04,850990.9,833100.3,Woodland,Woodland
+1045,2020,Tru26_05,850675.5,832818.2,Woodland,Woodland
+1046,2020,Tru26_06,850672,832764.1,Woodland,Woodland
+1047,2020,Tru26_07,850503.4,832629.5,Woodland,Woodland
+1048,2020,Tru26_09,850091.3,831967.1,Woodland,Woodland
+1049,2020,Tru26_11,850537.6,831836.8,Woodland,Woodland
+1050,2020,Tru26_12,850731.8,831721,Shrubland,Shrubland
+1051,2020,Tru26_13,851247.5,831411.7,Grassland,Grassland
+1052,2020,Tru26_16,851585.2,831459.4,Shrubland,Shrubland
+1053,2020,Tru26_20,852180.3,831236.6,Woodland,Woodland
+1054,2020,Tru27_06,822523.6,816031.5,Shrubland,Shrubland
+1055,2020,Tru27_08,822593.9,816196.9,Grassland,Grassland
+1056,2020,Tru27_09,822619.4,816163.5,Rural plantation,Woodland
+1057,2020,Tru27_13,822368.5,816055,Woodland,Woodland
+1058,2020,Tru27_17,822339,816888.3,Woodland,Woodland
+1059,2020,Tru28_02,831402.4,807065.5,Woodland,Woodland
+1060,2020,Tru28_03,830998.9,807333.7,Marsh/ reed bed,Grassland
+1061,2020,Tru28_04,830949.9,807465.4,Woodland,Woodland
+1062,2020,Tru28_05,830968.8,807627.2,Shrubland,Shrubland
+1063,2020,Tru28_08,830756.1,808209,Mixed barren land,Barren land
+1064,2020,Tru28_11,830515.5,808609.8,Grassland,Grassland
+1065,2020,Tru28_12,830475.3,808735,Woodland,Woodland
+1066,2020,Tru28_14,830481,808897.2,Woodland,Woodland
+1067,2020,Tru28_15,830242.3,809010.3,Woodland,Woodland
+1068,2020,Tru28_16,830141.3,809106.4,Marsh/ reed bed,Grassland
+1069,2020,Tru28_17,829706.3,809541.7,Woodland,Woodland
+1070,2020,Tru29_02,856607.9,824922.6,Reservoirs,Water
+1071,2020,Tru29_03,856525.7,825079.5,Bare rock/ soil,Barren land
+1072,2020,Tru29_04,856500.7,825184.2,Bare rock/ soil,Barren land
+1073,2020,Tru29_05,856409.4,825137.3,Reservoirs,Water
+1074,2020,Tru29_10,856480.5,825872.2,Shrubland,Shrubland
+1075,2020,Tru29_12,856555.3,825929.2,Shrubland,Shrubland
+1076,2020,Tru29_14,856705.3,826046.9,Soft shore,Barren land
+1077,2020,Tru29_20,857156.8,826823.3,Shrubland,Shrubland
+1078,2020,Tru29_22,856979.6,827327.1,Shrubland,Shrubland
+1079,2020,Tru29_23,856870.3,827715,Shrubland,Shrubland
+1080,2020,Tru29_24,856729.3,827835.7,Shrubland,Shrubland
+1081,2020,Tru29_31,855686.2,827977.6,Woodland,Woodland
+1082,2020,Tru29_32,855218.9,828136,Rural plantation,Woodland
+1083,2020,Tru30_01,854970.6,836313.7,Natural rocky shoreline,Barren land
+1084,2020,Tru30_05,855469.1,836412.6,Natural rocky shoreline,Barren land
+1085,2020,Tru30_09,855490.1,836841.6,Natural rocky shoreline,Barren land
+1086,2020,Tru30_11,855341.3,836946.4,Grassland,Grassland
+1087,2020,Tru30_12,855425.9,836892.7,Bare rock/ soil,Barren land
+1088,2020,Tru30_14,855577.4,837418.5,Woodland,Woodland
+1089,2020,Tru30_15,855414.7,837156.5,Woodland,Woodland
