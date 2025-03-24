@@ -30,65 +30,65 @@ Unless otherwise specified, all datasets were collected and compiled from Januar
 
 ### Environmental Raster:
 
-*   **DistanceFromCoast.tif**: 
+*   **DistanceFromCoast.tif**: Geometric distance (m) from the coastline.
 
-*   **Elevation.tif**: 
+*   **Elevation.tif**: Terrain height (m) from the LiDAR-based digital terrain model.
 
-*   **Hillfire_10periods.tif**: 
+*   **Hillfire_10periods.tif**: Hill fires occurred in each five-year period, based on burn-area products by Chan et al. (2023) and manual digitisation for early years.
 
-*   **Insolation.tif**: 
+*   **Insolation.tif**: Annual amount of incoming solar radiation (kWh/m2) computed using SAGA GIS.
 
-*   **Landslide_10periods.tif**: 
+*   **Landslide_10periods.tif**: Landslides occurred in each five-year period, based on the Enhanced Natural Terrain Landslide Inventory (Dias et al., 2009).
 
-*   **Northness.tif**: 
+*   **Northness.tif**: Terrain aspect from 1 (due north) to -1 (due south) computed from the DTM.
 
-*   **Precipitation.tif**: 
+*   **Precipitation.tif**: Annual precipitation (mm) from Hong Kong Observatory (2022).
 
-*   **Slope.tif**: 
+*   **Slope.tif**: Steepness (°) of the ground surface computed from the DTM.
 
-*   **SoilCEC.tif**: 
+*   **SoilCEC.tif**: Cation exchange capacity (CEC) (mmol/kg) of topsoil from Luo et al. (2007)
 
-*   **SoilOrganicMatter.tif**: 
+*   **SoilOrganicMatter.tif**: Organic matter content (%) of topsoil from Luo et al. (2007)
 
-*   **Temperature.tif**: 
+*   **Temperature.tif**: Annual mean temperature (°C) from Morgan and Guénard (2019).
 
-*   **TopographicWetnessIndex.tif**: 
+*   **TopographicWetnessIndex.tif**: Amount of water accumulation due to topographic effects computed from the DTM.
 
-*   **Typhoon_10periods.tif**: 
+*   **Typhoon_10periods.tif**: Wind speed (km/h) estimated from WindNinja based on maximum hourly mean wind records associated with typhoon events in each five-year period.
 
-*   **WindSpeed.tif**: 
+*   **WindSpeed.tif**: Mean wind speed (km/h) estimated from WindNinja based on monthly prevailing wind records.
 
 ### Human Activities:
 
-*   Buildings_10periods_shp.zip: 
+*   **BuiltupAreas_10periods_shp.zip**: Shapefile (polygons) of built-up areas, with attributes on the years of construction (estimated from topographic maps) and density (high and low). It was used as threat factors in habitat quality mapping and variables in habitat changes.
 
-*   CountryParksProtectedAreas_shp.zip:
+*   **CountryParksProtectedAreas_shp.zip**: Shapefile (polygons) of protected areas (Country Parks, Special Areas, etc.), with attributes on the years of designation and revision. It was used as protection factors in habitat quality mapping and variables in habitat changes.
 
-*   PollutionSource_shp.zip:
+*   **PollutionSource_shp.zip**: Shapefile (polygons) of pollution sources (landfills, power stations, and incineration plants), with attributes on the years of construction and closure. It was used as threat factors in habitat quality mapping.
 
-*   Roads_10periods_shp.zip:
+*   **Roads_10periods_shp.zip**: Shapefile (polylines) of roads, with attributes on the years of construction (estimated from topographic maps) and type (main and secondary). It was used as threat factors in habitat quality mapping.
 
 ### Mapping Reference:
 
-*   ForestIndex_FieldCollectedReferenceData.csv:
+*   **ForestIndex_FieldCollectedReferenceData.csv**:
 
-*   HabitatMapHK_EstimatedArea.csv:
+*   **HabitatMapHK_EstimatedArea.csv**:
 
-*   HabitatMapHK_FieldCollectedReferenceData.csv:
+*   **HabitatMapHK_FieldCollectedReferenceData.csv**:
 
-*   HabitatMapHK_OfficeInterpretedReferenceData.csv:
+*   **HabitatMapHK_OfficeInterpretedReferenceData.csv**:
 
-*   HabitatQualityHK_FieldSurveyedEcologicalValue2008.csv:
+*   **HabitatQualityHK_FieldSurveyedEcologicalValue2008.csv**:
 
-*   LandsatHK_CrossSensorCalibrationPoints.csv:
+*   **LandsatHK_CrossSensorCalibrationPoints.csv**:
 
-*   LandsatHK_ImageMetadata.csv:
+*   **LandsatHK_ImageMetadata.csv**:
 
-*   Plantation_1975_1990_2008_2019.tif:
+*   **Plantation_1975_1990_2008_2019.tif**:
 
-*   SpeciesObsHK_SpeciesChecklist.csv:
+*   **SpeciesObsHK_SpeciesChecklist.csv**:
 
-*   SpeciesObsHK_SynonymList.csv:
+*   **SpeciesObsHK_SynonymList.csv**:
 
 
 ## Analysis codes:
