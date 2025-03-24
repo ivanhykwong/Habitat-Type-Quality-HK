@@ -8,12 +8,17 @@ Kwong, I. H. Y. (in progress). *Spatio-Temporal Changes in Habitat Type and Qual
 
 **Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (2025). Spatial variations in forest succession rates revealed from multi-temporal habitat maps using Landsat imagery in subtropical Hong Kong. European Geosciences Union (EGU) General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025. https://doi.org/10.5194/egusphere-egu25-2667**
 
+---
+
+*Disclaimer: All datasets described here are for reference only. No express or implied warranty or representation is given to the accuracy or completeness of the data or its appropriateness for use in any particular circumstances.*
 
 ## GIS mapping results:
 
-All raster layers (GeoTiff format) have a pixel size of 30 m covering the 1117-km2 terrestrial area in Hong Kong in this study. The time period of 1973–2022 was divided into 10 five-year periods in the mapping process.
+All raster layers (GeoTiff format) have a pixel size of 30 m covering the 1117-km2 terrestrial area in Hong Kong in this study. The time period of 1973–2022 was divided into 10 five-year periods in the mapping process. 
 
 *   **HabitatMapHK_6class_yyyy-yyyy.tif**: Raster data showing the 6 habitat classes mapped in this study. Pixel values range from 1 to 6 representing woodland, shrubland, grassland, barren land, built-up area, and water respectively.
+
+*   **HabitatMapHK_EstimatedArea.csv**: Area coverage (km2) of different habitat classes, as well as their confidence intervals, as mapped in this study. 
   
 *   **HabitatMapHK_6class_ArcGISsymbology.lyrx**: Used to apply the suggested symbology in ArcGIS Pro, as shown in the figure below.
 
@@ -26,7 +31,7 @@ All raster layers (GeoTiff format) have a pixel size of 30 m covering the 1117-k
 
 ## GIS supplementary data:
 
-Unless otherwise specified, all datasets were collected and compiled from January to June 2024 and represent the conditions at that time.
+All datasets were collected and compiled from January to June 2024 and represent the conditions at that time. 
 
 ### Environmental Raster:
 
@@ -34,23 +39,23 @@ Unless otherwise specified, all datasets were collected and compiled from Januar
 
 *   **Elevation.tif**: Terrain height (m) from the LiDAR-based digital terrain model.
 
-*   **Hillfire_10periods.tif**: Hill fires occurred in each five-year period, based on burn-area products by Chan et al. (2023) and manual digitisation for early years.
+*   **Hillfire_10periods.tif**: Hill fires occurred in each five-year period, based on burn-area products by [Chan et al. (2023)](https://www.mdpi.com/2072-4292/15/6/1489) and manual digitisation for early years.
 
 *   **Insolation.tif**: Annual amount of incoming solar radiation (kWh/m2) computed using SAGA GIS.
 
-*   **Landslide_10periods.tif**: Landslides occurred in each five-year period, based on the Enhanced Natural Terrain Landslide Inventory (Dias et al., 2009).
+*   **Landslide_10periods.tif**: Landslides occurred in each five-year period, based on the [Enhanced Natural Terrain Landslide Inventory](https://portal.csdi.gov.hk/geoportal/?datasetId=cedd_rcd_1636520697377_96152&lang=en) ([Dias et al., 2009](https://hkss.cedd.gov.hk/hkss/filemanager/common/publications-resources/list-of-technical-papers/511_Dias%20et%20al%20(2009)_The%20Enhanced%20Natural%20Terrain%20Landslide%20Inventory.pdf)).
 
 *   **Northness.tif**: Terrain aspect from 1 (due north) to -1 (due south) computed from the DTM.
 
-*   **Precipitation.tif**: Annual precipitation (mm) from Hong Kong Observatory (2022).
+*   **Precipitation.tif**: Annual precipitation (mm) from [Hong Kong Observatory (2022)](https://www.hko.gov.hk/en/cis/climahk.htm).
 
 *   **Slope.tif**: Steepness (°) of the ground surface computed from the DTM.
 
-*   **SoilCEC.tif**: Cation exchange capacity (CEC) (mmol/kg) of topsoil from Luo et al. (2007)
+*   **SoilCEC.tif**: Cation exchange capacity (CEC) (mmol/kg) of topsoil from [Luo et al. (2007)](https://books.google.com/books?id=ivzlMQAACAAJ).
 
-*   **SoilOrganicMatter.tif**: Organic matter content (%) of topsoil from Luo et al. (2007)
+*   **SoilOrganicMatter.tif**: Organic matter content (%) of topsoil from [Luo et al. (2007)](https://books.google.com/books?id=ivzlMQAACAAJ).
 
-*   **Temperature.tif**: Annual mean temperature (°C) from Morgan and Guénard (2019).
+*   **Temperature.tif**: Annual mean temperature (°C) from [Morgan and Guénard (2019)](https://essd.copernicus.org/articles/11/1083/2019/).
 
 *   **TopographicWetnessIndex.tif**: Amount of water accumulation due to topographic effects computed from the DTM.
 
@@ -70,25 +75,23 @@ Unless otherwise specified, all datasets were collected and compiled from Januar
 
 ### Mapping Reference:
 
-*   **ForestIndex_FieldCollectedReferenceData.csv**:
+*   **ForestIndex_FieldCollectedReferenceData.csv**: Field survey records of habitat types which were used to evaluate the forest index variable in this study.
 
-*   **HabitatMapHK_EstimatedArea.csv**:
+*   **HabitatMapHK_FieldCollectedReferenceData.csv**: Field survey records of habitat types which were used to assess the habitat mapping results in this study.
 
-*   **HabitatMapHK_FieldCollectedReferenceData.csv**:
+*   **HabitatMapHK_OfficeInterpretedReferenceData.csv**: Reference points where the habitat class in each period was determined through visual interpretation of the aerial photographs and other historical records. The points were used for both training and validation of the habitat maps in this study.
 
-*   **HabitatMapHK_OfficeInterpretedReferenceData.csv**:
+*   **HabitatQualityHK_FieldSurveyedEcologicalValue2008.csv**: Field survey records of ecological values in 2008 which were used to evaluate the habitat quality maps in this study.
 
-*   **HabitatQualityHK_FieldSurveyedEcologicalValue2008.csv**:
+*   **LandsatHK_CrossSensorCalibrationPoints.csv**: Selected points that were assumed to remain unchanged over time and used to cross-calibrate different Landsat sensors in this study.
 
-*   **LandsatHK_CrossSensorCalibrationPoints.csv**:
+*   **LandsatHK_ImageMetadata.csv**: Metadata of the Landsat imagery (1,100 downloaded scenes and 607 valid scenes after pre-processing) acquired and processed in this study.
 
-*   **LandsatHK_ImageMetadata.csv**:
+*   **Plantation_1975_1990_2008_2019.tif**: Pixels that were identified as plantations on four existing maps in different years (1975, 1990, 2008, 2019), as represented by the four layers contained in this raster file respectively. These pixels were used to help extract plantation class on the habitat map (when producing habitat quality) and denote areas with plantation activities (when modelling habitat changes) in this study.
 
-*   **Plantation_1975_1990_2008_2019.tif**:
+*   **SpeciesObsHK_SpeciesChecklist.csv**: A species checklist of 7 taxa in Hong Kong (Plants, Butterflies, Birds, Reptiles, Dragonflies, Amphibians, Mammals) compiled from [AFCD](https://www.afcd.gov.hk/english/conservation/hkbiodiversity/speciesgroup/speciesgroup.html), [Hong Kong Biodiversity Information Hub](https://bih.gov.hk/en/hong-kong-species/index.html), and other secondary sources. Species of conservation concern are identified based on local assessments ([Corlett et al., 2000](https://www.researchgate.net/publication/364669045_Hong_Kong_vascular_plants_-_distribution_and_status); [Fellowes et al., 2002](https://www.researchgate.net/publication/268517493_Wild_animals_to_watch_terrestrial_and_freshwater_fauna_of_conservation_concern_in_Hong_Kong)), environmental protection laws, and national and global assessments. The checklist was used to match with the iNaturalist dataset to compute biodiversity metrics at grid levels and evaluate habitat quality maps in this study.
 
-*   **SpeciesObsHK_SpeciesChecklist.csv**:
-
-*   **SpeciesObsHK_SynonymList.csv**:
+*   **SpeciesObsHK_SynonymList.csv**: A list of species name synonyms for matching names identified in iNaturalist and other secondary sources with the species checklist. It was used to pre-process the iNaturalist observation data and unify the species names of different records in this study.
 
 
 ## Analysis codes:
