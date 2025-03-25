@@ -94,23 +94,23 @@ All datasets were collected and compiled from January to June 2024 and represent
 *   **SpeciesObsHK_SynonymList.csv**: A list of species name synonyms for matching names identified in iNaturalist and other secondary sources with the species checklist. It was used to pre-process the iNaturalist observation data and unify the species names of different records in this study.
 
 
-## Analysis codes:
+## Analysis scripts:
 
 ### Part 1: Mapping Vegetation Habitats from a Satellite Image Time-Series
 
-*   **P1_01_SearchAndDownloadFromGEE.ipynb**:
-*   **P1_02_Preprocess_part1.py**:
-*   **P1_03_TopographicCorrection.R**:
-*   **P1_04_CrossSensorCal.R**:
-*   **P1_05_ImageComposite.R**:
-*   **P1_06_ExtractPixelValue.R**:
-*   **P1_07_TrainingDataStat.R**:
-*   **P1_08_TrainRFModel.R**:
-*   **P1_09_TestProcedures.R**:
-*   **P1_10_ApplyModel.R**:
-*   **P1_11_AreaCoverage.R**:
-*   **P1_12_CompareFieldData.R**:
-*   **P1_13_SurvivalAnalysis.R**:
+*   **P1_01_SearchAndDownloadFromGEE.ipynb**: Query and download all available Landsat 1-9 imagery covering the study area using Google Earth Engine. Atmospheric correction is performed if necessary.
+*   **P1_02_Preprocess_part1.py**: Some basic pre-processing steps after downloading the images from cloud platform to local computer, such as mosaicking adjacent scenes and reprojecting to local coordinate system.
+*   **P1_03_TopographicCorrection.R**: SCS+C topographic correction based on terrain slope, aspect, sun azimuth and sun elevation angles.
+*   **P1_04_CrossSensorCal.R**: Cross-calibration of different Landsat sensors based on pseudo-invariant features, followed by computing variables for image classification.
+*   **P1_05_ImageComposite.R**: Create image composites (median and standard deviation statistics) by combining all imagery acquried in the same period.
+*   **P1_06_ExtractPixelValue.R**: Extract pixel values at the locations of reference points.
+*   **P1_07_TrainingDataStat.R**: Summarise the characteristics of pixel values (e.g., spectral reflectance) of each habitat class and Landsat sensor.
+*   **P1_08_TrainRFModel.R**: Train the random forest model, fuse probability outputs from each image, evaluate the model accuracies with cross-validation, and create the final model for classifying the entire dataset.
+*   **P1_09_TestProcedures.R**: Modify the classification procedures and re-run the random forest models to evaluate their impacts on the classification accuracies.
+*   **P1_10_ApplyModel.R**: Apply the random forest model and fusion steps to all images to create the habitat map for each period.
+*   **P1_11_AreaCoverage.R**: Obtain the area coverage of each class on the habitat map as well as the confidence interval of the area estimates.
+*   **P1_12_CompareFieldData.R**: Assess the accuracies of the habitat maps by overlaying with field-collected points and LiDAR height information at different times.
+*   **P1_13_SurvivalAnalysis.R**: Analyse the number of years required for transitioning between vegetation classes as well as the correlations between transtion times and environmental variables.
 
 ### Part 2: Computing Habitat Quality Maps with Reference to Habitat Type Information
 
