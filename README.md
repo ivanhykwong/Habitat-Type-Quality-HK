@@ -61,7 +61,7 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 *   **Typhoon_10periods.tif**: Wind speed (km/h) estimated from [WindNinja](https://ninjastorm.firelab.org/windninja/) based on maximum hourly mean wind records associated with typhoon events in each five-year period.
 
-*   **WindSpeed.tif**: Mean wind speed (km/h) estimated from [WindNinja](https://ninjastorm.firelab.org/windninja/) based on monthly prevailing wind records.
+*   **WindSpeed.tif**: Mean wind speed (km/h) estimated from [WindNinja](https://ninjastorm.firelab.org/windninja/) based on monthly [prevailing wind records](https://www.weather.gov.hk/en/cis/regione.htm).
 
 ### Human Activities:
 
