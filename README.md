@@ -22,12 +22,15 @@ All raster layers (GeoTiff format) have a pixel size of 30 m covering the 1117-k
   
 *   **HabitatMapHK_6class_ArcGISsymbology.lyrx**: Used to apply the suggested symbology in ArcGIS Pro, as shown in the figure below.
 
+![Kwong2025_HabitatTypeMap](https://github.com/user-attachments/assets/828442cb-c287-4689-a1d9-f6e253e19921)
+
 *   **ClassificationProbability_yyyy-yyyy.tif**: The probability values belonging to each class for every pixel. They were the intermediate products generated from the classification workflow and used to determine the final class with the highest probability and compute the forest index in this study. The sum of probabilities for all six classes is equal to 1. A scale factor of 10000 was applied to the GeoTiff files for storage convenience. 
 
 *   **HabitatMapHK_8class_yyyy-yyyy.tif**: Based on the 6-class outputs, two more classes are added in this product, including wetland (pixel value 7) and plantation (pixel value 8), to serve as inputs for the habitat quality model.
 
 *   **HabitatQualityHK_yyyy-yyyy.tif**: Habitat quality maps produced in this study. The pixel value is a continuous variable ranging from 0 to 1, with 1 meaning the highest habitat quality.
 
+![Kwong2025_HabitatQualityMap](https://github.com/user-attachments/assets/bdd4dad4-7ddb-4066-a546-79e1ee0aac06)
 
 ## GIS supplementary data:
 
@@ -63,6 +66,8 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 *   **WindSpeed.tif**: Mean wind speed (km/h) estimated from [WindNinja](https://ninjastorm.firelab.org/windninja/) based on monthly [prevailing wind records](https://www.weather.gov.hk/en/cis/regione.htm).
 
+![Kwong2025_EnvironmentalVariables](https://github.com/user-attachments/assets/d80674b7-9d21-4206-8b96-0e62a1913c58)
+
 ### Human Activities:
 
 *   **BuiltupAreas_10periods_shp.zip**: Shapefile (polygons) of built-up areas, with attributes on the years of construction (estimated from topographic maps) and density (high and low). It was used as a threat factor in habitat quality mapping and variables in habitat changes.
@@ -72,6 +77,8 @@ All datasets were collected and compiled from January to June 2024 and represent
 *   **PollutionSource_shp.zip**: Shapefile (polygons) of pollution sources (landfills, power stations, and incineration plants), with attributes on the years of construction and closure. It was used as a threat factor in habitat quality mapping.
 
 *   **Roads_10periods_shp.zip**: Shapefile (polylines) of roads, with attributes on the years of construction (estimated from topographic maps) and type (main and secondary). It was used as a threat factor in habitat quality mapping.
+
+![Kwong2025_HumanActivitiesVariables](https://github.com/user-attachments/assets/afbae3bb-5674-481e-8805-b2feb4784688)
 
 ### Mapping Reference:
 
@@ -93,6 +100,106 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 *   **SpeciesObsHK_SynonymList.csv**: A list of species name synonyms for matching names used in iNaturalist and other secondary sources with the species checklist. It was used to pre-process the [iNaturalist observation data](https://doi.org/10.15468/dl.eexe9q) and unify the species names from different records in this study.
 
+![Kwong2025_iNaturalistPoints](https://github.com/user-attachments/assets/9e3db740-e58f-40e7-a3e3-d26d1c6501f4)
+
+<table><thead>
+  <tr>
+    <th colspan="2" rowspan="2">Taxa </th>
+    <th colspan="2">Checklist</th>
+    <th colspan="4">iNaturalist dataset (2018-2023)</th>
+  </tr>
+  <tr>
+    <th>Number of species</th>
+    <th>Those of conservation concerns</th>
+    <th>Number of species found</th>
+    <th>Those of conservation concerns</th>
+    <th>Number of observations</th>
+    <th>Those of species of conservation concerns</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">Plants</td>
+    <td>3347</td>
+    <td>1139</td>
+    <td>1206</td>
+    <td>256</td>
+    <td>29858</td>
+    <td>2085</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Animals</td>
+    <td>Mammals</td>
+    <td>55</td>
+    <td>40</td>
+    <td>33</td>
+    <td>21</td>
+    <td>1709</td>
+    <td>920</td>
+  </tr>
+  <tr>
+    <td>Birds</td>
+    <td>572</td>
+    <td>230</td>
+    <td>374</td>
+    <td>163</td>
+    <td>28313</td>
+    <td>7442</td>
+  </tr>
+  <tr>
+    <td>Reptiles</td>
+    <td>90</td>
+    <td>53</td>
+    <td>62</td>
+    <td>31</td>
+    <td>4547</td>
+    <td>750</td>
+  </tr>
+  <tr>
+    <td>Amphibians</td>
+    <td>25</td>
+    <td>13</td>
+    <td>22</td>
+    <td>10</td>
+    <td>3247</td>
+    <td>616</td>
+  </tr>
+  <tr>
+    <td>Butterflies</td>
+    <td>245</td>
+    <td>73</td>
+    <td>222</td>
+    <td>63</td>
+    <td>37176</td>
+    <td>2519</td>
+  </tr>
+  <tr>
+    <td>Dragonflies</td>
+    <td>132</td>
+    <td>53</td>
+    <td>96</td>
+    <td>43</td>
+    <td>7709</td>
+    <td>643</td>
+  </tr>
+  <tr>
+    <td colspan="2">All animals</td>
+    <td>1119</td>
+    <td>462</td>
+    <td>809</td>
+    <td>331</td>
+    <td>82701</td>
+    <td>12890</td>
+  </tr>
+  <tr>
+    <td colspan="2">All taxa</td>
+    <td>4466</td>
+    <td>1601</td>
+    <td>2015</td>
+    <td>587</td>
+    <td>112559</td>
+    <td>14975</td>
+  </tr>
+</tbody></table>
 
 ## Analysis scripts:
 
