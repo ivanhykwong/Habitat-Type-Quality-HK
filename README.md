@@ -6,7 +6,7 @@ Supplementary materials used in the following studies:
 
 Kwong, I. H. Y. (in progress). *Spatio-Temporal Changes in Habitat Type and Quality in Hong Kong Using a 50-Year Archive of Remote Sensing Imagery* [Doctoral thesis, Department of Geography and Resource Management, The Chinese University of Hong Kong].
 
-**Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (2025). Spatial variations in forest succession rates revealed from multi-temporal habitat maps using Landsat imagery in subtropical Hong Kong. European Geosciences Union (EGU) General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025. https://doi.org/10.5194/egusphere-egu25-2667**
+**Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (2025). Spatial variations in forest succession rates revealed from multi-temporal habitat maps using Landsat imagery in subtropical Hong Kong. European Geosciences Union (EGU) General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025. https://doi.org/10.5194/egusphere-egu25-2667. [Poster Presentation: https://presentations.copernicus.org/EGU25/EGU25-2667_presentation-h291057.pdf]**
 
 ---
 
@@ -14,7 +14,7 @@ Kwong, I. H. Y. (in progress). *Spatio-Temporal Changes in Habitat Type and Qual
 
 ## GIS mapping results:
 
-All raster layers (GeoTiff format) have a pixel size of 30 m covering the 1117-km2 terrestrial area in Hong Kong in this study. The time period of 1973–2022 was divided into 10 five-year periods in the mapping process. 
+All raster layers (GeoTiff format) have a pixel size of 30 m covering the 1117-km2 terrestrial area in Hong Kong in this study (Hong Kong 1980 Grid coordinate system). The time period of 1973–2022 was divided into 10 five-year periods in the mapping process. 
 
 *   **HabitatMapHK_6class_yyyy-yyyy.tif**: Raster data showing the 6 habitat classes mapped in this study. Pixel values range from 1 to 6 representing woodland, shrubland, grassland, barren land, built-up area, and water respectively.
 
@@ -240,4 +240,4 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 ---
 
-*Last updated in March 2025*
+*Last updated in May 2025*
