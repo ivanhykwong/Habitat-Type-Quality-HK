@@ -90,6 +90,8 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 *   **HabitatMapHK_OfficeInterpretedReferenceData.csv**: Reference points where the habitat class in each period was determined through visual interpretation of the aerial photographs and other historical records. The points were used for both training and validation of the habitat maps in this study.
 
+*   **HabitatMapHK_PredictionsFromProcedures.csv**: Prediction results for each reference points in each period when different mapping procedures were implemented.
+
 *   **HabitatQualityHK_FieldSurveyedEcologicalValue2008.csv**: Field survey records of ecological values in 2008 which were used to evaluate the habitat quality maps in this study.
 
 *   **LandsatHK_CrossSensorCalibrationPoints.csv**: Selected points that were assumed to remain unchanged over time and used to cross-calibrate different Landsat sensors in this study.
@@ -213,7 +215,7 @@ All datasets were collected and compiled from January to June 2024 and represent
 *   **P1_04_CrossSensorCal.R**: Cross-calibration of different Landsat sensors based on pseudo-invariant features, followed by computing variables for image classification.
 *   **P1_05_ImageComposite.R**: Create image composites (median and standard deviation statistics) by combining all imagery acquired in the same period.
 *   **P1_06_ExtractPixelValue.R**: Extract pixel values at the locations of reference points.
-*   **P1_07_TrainingDataStat.R**: Summarise the characteristics of pixel values (e.g., spectral reflectance) of each habitat class and Landsat sensor.
+*   **P1_07_SpatialBlock.R**: Define spatial blocks and folds for cross-validating model predictions.
 *   **P1_08_TrainRFModel.R**: Train the Random Forest model, fuse probability outputs from each image, evaluate the model accuracies with cross-validation, and create the final model for classifying the entire dataset.
 *   **P1_09_TestProcedures.R**: Modify the classification procedures and re-run the Random Forest models to evaluate their impacts on the classification accuracies.
 *   **P1_10_ApplyModel.R**: Apply the Random Forest model and fusion steps to all images to create the habitat map for each period.
