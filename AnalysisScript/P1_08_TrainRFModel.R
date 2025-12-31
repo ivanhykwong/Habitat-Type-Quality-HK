@@ -14,47 +14,33 @@ library(ranger)
 library(matrixStats)
 library(TTR)
 library(tuneRanger)
+library(blockCV)
 
 # Prepare data
 
 setwd("D:/landsat/train")
 imgdf <- fread("imgdata_all_t.csv")
 trainpt <- read.csv("trainpt.csv")
+sb1 <- readRDS("spatialblock.rds")
 
-trainpt_m <- reshape2::melt(trainpt[,c(1,5:14)], id.vars = c("PointID"),
+trainpt_m <- reshape2::melt(trainpt[,c(1,3:14)], id.vars = c("PointID"),
                             variable.name = "yearclass", value.name = "Class")
 trainpt_m$Class <- factor(trainpt_m$Class, levels = c(1:6))
 levels(trainpt_m$Class) <- c("c1", "c2", "c3", "c4", "c5", "c6")
+trainpt_m$fold <- sb1$folds_ids
 traindata <- merge(imgdf, trainpt_m, by = c("PointID","yearclass"))
 traindata$row_num <- seq.int(nrow(traindata))
 
 predictors <- c("G","R","NIR","ndvi","gndvi","glcm_mean","glcm_con","Slope","Northness")
 
-# define function: trainpt id -> row numbers (for select points in each fold)
-
-getrn <- function(fold1, td){
-  for (n in fold1) {fold1[n] <- trainpt$PointID[n]}
-  rn <- td[td$PointID %in% fold1,]$row_num
-  return(rn)
-} # foldindex_row <- lapply(foldindex, getrn, traindata)
 
 # Function to build RF model and perform 10-fold cross validation
 
-buildmodel <- function(traindata, predictors, separatewetdry=TRUE, ncore=4, seed=2022){
+buildmodel <- function(traindata, predictors, ncore=4, seed=2022){
   set.seed(seed)
   seeds <- sample.int(n=2000, 100)
-  # separate wet dry
-  if (separatewetdry == TRUE){
-    td_wet <- traindata[traindata$monthclass == "wet"]
-    td_wet$row_num <- seq.int(nrow(td_wet))
-    td_dry <- traindata[traindata$monthclass == "dry"]
-    td_dry$row_num <- seq.int(nrow(td_dry))
-  } else {
-    td_all <- traindata
-    td_all$row_num <- seq.int(nrow(td_all))
-  }
-  
-  # predict prob
+
+  # Function to convert raw predictions to probabilities
   rawtoprob <- function(rawpred){
     rawpred <- rawpred$predictions
     df <- data.frame(matrix(ncol = 6, nrow = nrow(rawpred)))
@@ -64,91 +50,59 @@ buildmodel <- function(traindata, predictors, separatewetdry=TRUE, ncore=4, seed
     return(df)
   }
 
-  # Define ranger function
-  doranger <- function(td1, predictors1, modelname){
-    # tune mtry
-    td_t <- as.data.table(balance(td1, "min", cat_col="Class"))
-    res <- data.frame()
-    for (s in 1:10){
-      set.seed(seeds[s])
-      res1 <- tuneMtryFast(Class ~., data=td_t[,c(..predictors1,"Class")],
-                           num.treesTry=200, stepFactor=1.5, num.threads = ncore)
-      res1 <- as.data.frame(res1)
-      res <- rbind(res, res1)      
-    }
-    res_mtry <- res %>% group_by(mtry) %>% summarize(error=mean(OOBError))
-    res_mtry <- res_mtry[order(res_mtry$error),]
-    bestmtry <- res_mtry$mtry[1]
-    print(paste0("bestmtry: ",bestmtry))
-    # cross validation
-    set.seed(seeds[4])
-    ptid_fold <- createMultiFolds(trainpt$PointID, k = 10, times = 5)
-
-    doranger_f <- function(f){
-      td2 <- td1[td1$PointID %in% ptid_fold[[f]],]
-      pd2 <- td1[!(td1$PointID %in% ptid_fold[[f]]),]
-      set.seed(seeds[5]+f)
-      td2_b <- as.data.table(balance(td2, "max", cat_col="Class"))
-      set.seed(seeds[6]+f)
-      m <- ranger(x = td2_b[,..predictors1], y = td2_b[["Class"]], mtry = bestmtry,
-                  seed = seeds[6]+f, num.threads = ncore, verbose = TRUE)
-      set.seed(seeds[7]+f)
-      m_pred <- predict(m, data = pd2, predict.all = TRUE, 
-                        seed = seeds[7]+f, num.threads = ncore, verbose = TRUE)
-      m_pred <- rawtoprob(m_pred)
-      m_pred <- data.table(pd2[,c("PointID","yearclass")], 
-                           repeats=names(ptid_fold[f]), m_pred)
-      return(m_pred)
-    }
-    cv_pred <- data.table()
-    for (f in 1:length(ptid_fold)){
-      print(paste0("Start fold: ", f))
-      m_pred <- doranger_f(f)
-      cv_pred <- rbind(cv_pred, m_pred)
-    }
-    set.seed(seeds[8])
-    td_b <- as.data.table(balance(td1, "max", cat_col="Class"))
-    set.seed(seeds[9]+f)
-    finalmodel <- ranger(x = td_b[,..predictors1], y = td_b[["Class"]], 
-                         mtry = bestmtry, importance = "impurity", 
-                         seed = seeds[9]+f, num.threads = ncore, verbose = TRUE)
-    return(list(modelname=modelname, mtry=bestmtry,
-                cv_pred=cv_pred, finalmodel=finalmodel))
+  # Tune optimal mtry
+  td_t <- as.data.table(balance(traindata, "min", cat_col="Class"))
+  res <- data.frame()
+  for (s in 1:5){
+    set.seed(seeds[s])
+    res1 <- tuneMtryFast(Class ~., data=td_t[,c(..predictors1,"Class")], stepFactor=1.5, num.threads = ncore)
+    res1 <- as.data.frame(res1)
+    res <- rbind(res, res1)      
   }
-
-  # Do RF
-  out <- list()
-  p_yes <- predictors
-  if("Slope" %in% p_yes == F){p_yes <- append(p_yes,"Slope")}
-  if("Northness" %in% p_yes == F){p_yes <- append(p_yes,"Northness")}
-  p_no <- predictors
-  if("Slope" %in% p_no == T){p_no <- p_no[!p_no == "Slope"]}
-  if("Northness" %in% p_no == T){p_no <- p_no[!p_no == "Northness"]}
+  res_mtry <- res %>% group_by(mtry) %>% summarize(error=mean(OOBError))
+  res_mtry <- res_mtry[order(res_mtry$error),]
+  bestmtry <- res_mtry$mtry[1]
+  print(paste0("bestmtry: ", bestmtry))
+    
+  # Function to train and predict each fold
+  doranger_f <- function(f){
+    td <- traindata[traindata$fold != f,]
+    pd <- traindata[traindata$fold == f,]
+    set.seed(seeds[5]+f)
+    td_b <- as.data.table(balance(td, "max", cat_col="Class"))
+    set.seed(seeds[6]+f)
+    m <- ranger(x = td_b[,..predictors1], y = td_b[["Class"]], mtry = bestmtry,
+                seed = seeds[6]+f, num.threads = ncore, verbose = TRUE)
+    set.seed(seeds[7]+f)
+    m_pred <- predict(m, data = pd, predict.all = TRUE, 
+                      seed = seeds[7]+f, num.threads = ncore, verbose = TRUE)
+    m_pred <- rawtoprob(m_pred)
+    m_pred <- data.table(pd[,c("PointID","yearclass")], repeats=1, m_pred)
+    return(m_pred)
+  }
+    
+  # Loop through each fold to obtain cross-validated predictions
+  cv_pred <- data.table()
+  for (f in 1:length(unique(traindata$fold))){
+    print(paste0("Start fold: ", f))
+    m_pred <- doranger_f(f)
+    cv_pred <- rbind(cv_pred, m_pred)
+  }
   
-  if (separatewetdry == TRUE){
-    p_wet <- doranger(td_wet, p_yes, modelname="wet_withtopo")
-    out <- append(out, p_wet)
-    print("Finish 1/4")
-    p_dry <- doranger(td_dry, p_yes, modelname="dry_withtopo")
-    out <- append(out, p_dry)
-    print("Finish 2/4")
-    p_wet <- doranger(td_wet, p_no, modelname="wet_notopo")
-    out <- append(out, p_wet)
-    print("Finish 3/4")
-    p_dry <- doranger(td_dry, p_no, modelname="dry_notopo")
-    out <- append(out, p_dry)
-  } else {
-    p_all <- doranger(td_all, p_yes, modelname="all_withtopo")
-    out <- append(out, p_all)
-    print("Finish 1/2")
-    p_all <- doranger(td_all, p_no, modelname="all_notopo")
-    out <- append(out, p_all)
-  }
-  return(out)
+  # Final model using all data
+  set.seed(seeds[8])
+  td_b <- as.data.table(balance(traindata, "max", cat_col="Class"))
+  set.seed(seeds[9]+f)
+  finalmodel <- ranger(x = td_b[,..predictors1], y = td_b[["Class"]], 
+                       mtry = bestmtry, importance = "impurity", 
+                       seed = seeds[9]+f, num.threads = ncore, verbose = TRUE)
+  
+  return(list(mtry=bestmtry, cv_pred=cv_pred, finalmodel=finalmodel))
 }
 
 
-# Functions to combine votes and compute accuracy
+# Function to combine votes and perform temporal smoothing
+
 voteresult <- function(pred_df, temporalsmooth = TRUE){
   if (inherits(pred_df, "list")){pred_df <- pred_df[[1]]}
   # combine vote
@@ -203,6 +157,8 @@ voteresult <- function(pred_df, temporalsmooth = TRUE){
   return(pred_df_vote)
 }
 
+# Function to combine accuracy and confidence intervals
+
 doaccuracy <- function(pred_df_vote){
   # accuracy assessment
   # https://blogs.fu-berlin.de/reseda/area-adjusted-accuracies/
@@ -243,6 +199,8 @@ doaccuracy <- function(pred_df_vote){
   return(pred_df_a)
 }
 
+# Function to combine accuracy and confidence intervals (for individual period)
+
 doaccuracy_sepyear <- function(pred_df_vote){
   yearclass <- unique(pred_df_vote$yearclass)
   pred_df_a <- data.frame()
@@ -256,70 +214,44 @@ doaccuracy_sepyear <- function(pred_df_vote){
 }
 
 
-# run
+# Execute functions
+
 cv_pred <- buildmodel(traindata, predictors)
 saveRDS(cv_pred, "D:/landsat/train/cv_pred.rds")
-
-pred_df <- bind_rows(cv_pred[c(3,7,11,15)])
-pred_df$repeats <- substr(pred_df$repeats, nchar(pred_df$repeats), nchar(pred_df$repeats))
+pred_df <- cv_pred[[2]]
 
 pred_df_vote <- voteresult(pred_df)
 vresult <- doaccuracy(pred_df_vote)
 vresult_sepyear <- doaccuracy_sepyear(pred_df_vote)
+write.csv(pred_df_vote,"pred_df_vote.csv")
 write.csv(rbind(cbind(vresult,yearclass="All"),vresult_sepyear),"vresult.csv")
 
 
 # Compute confusion matrix
-confmat <- table(pred_df_vote$predclass, pred_df_vote$refclass)/5
+confmat <- table(pred_df_vote$predclass, pred_df_vote$refclass)
 write.csv(confmat, "confmat.csv")
 yearclass <- unique(pred_df_vote$yearclass)
 y = yearclass[1]
 pred_df_y <- pred_df_vote[pred_df_vote$yearclass==y,]
-table(pred_df_y$predclass, pred_df_y$refclass)/5
+table(pred_df_y$predclass, pred_df_y$refclass)
 
 
 # Create final model (use randomforest)
 buildfinmodel <- function(traindata, predictors, rangermodel){
-  td_wet <- traindata[traindata$monthclass == "wet"]
-  td_dry <- traindata[traindata$monthclass == "dry"]
-  # Define rf function
-  dorf <- function(td, predictors, mtry){
-    set.seed(2021)
-    td_b <- as.data.table(balance(td, "max", cat_col="Class"))
-    set.seed(2022)
-    grid_rf <- expand.grid(mtry = mtry)
-    fit_rf <- trainControl(method = "none", seeds = 2022, classProbs = TRUE)
-    set.seed(2023)
-    m2 <- caret::train(td_b[,..predictors], td_b[["Class"]], method="rf", type="prob",
-                       trControl = fit_rf, tuneGrid = grid_rf, 
-                       importance = TRUE, verbose = TRUE)
-    return(m2)
-  }
-  # Do RF
-  out <- list()
-  p_yes <- predictors
-  if("Slope" %in% p_yes == F){p_yes <- append(p_yes,"Slope")}
-  if("Northness" %in% p_yes == F){p_yes <- append(p_yes,"Northness")}
-  p_no <- predictors
-  if("Slope" %in% p_no == T){p_no <- p_no[!p_no == "Slope"]}
-  if("Northness" %in% p_no == T){p_no <- p_no[!p_no == "Northness"]}
-  
-  p_wet <- dorf(td_wet, p_yes, mtry=rangermodel$wet_withtopo$mtry)
-  out <- append(out, list(wet_withtopo = p_wet))
-  p_dry <- dorf(td_dry, p_yes, mtry=rangermodel$dry_withtopo$mtry)
-  out <- append(out, list(dry_withtopo = p_dry))
-  p_wet <- dorf(td_wet, p_no, mtry=rangermodel$wet_notopo$mtry)
-  out <- append(out, list(wet_notopo = p_wet))
-  p_dry <- dorf(td_dry, p_no, mtry=rangermodel$dry_notopo$mtry)
-  out <- append(out, list(dry_notopo = p_dry))
-  return(out)
+  mtry <- rangermodel$mtry
+  set.seed(2021)
+  td_b <- as.data.table(balance(traindata, "max", cat_col="Class"))
+  set.seed(2022)
+  grid_rf <- expand.grid(mtry = mtry)
+  fit_rf <- trainControl(method = "none", seeds = 2022, classProbs = TRUE)
+  set.seed(2023)
+  m <- caret::train(td_b[,..predictors], td_b[["Class"]], method="rf", type="prob",
+                    trControl = fit_rf, tuneGrid = grid_rf, 
+                    importance = TRUE, verbose = TRUE)
+  return(m)
 }
 
 rangermodel <- readRDS("D:/landsat/train/cv_pred.rds")
-rangermodel <- list(wet_withtopo=rangermodel[1:4], dry_withtopo=rangermodel[5:8],
-                    wet_notopo=rangermodel[9:12], dry_notopo=rangermodel[13:16])
-rf_model <- buildfinmodel(traindata, predictors, 
-                          rangermodel=rangermodel)
+rf_model <- buildfinmodel(traindata, predictors, rangermodel)
 saveRDS(rf_model, "D:/landsat/train/rf_model.rds")
-
 

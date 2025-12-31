@@ -4,7 +4,7 @@ library(reshape2)
 
 # Get area of each class
 
-imgfolder <- "M:/landsat/outputmap"
+imgfolder <- "D:/landsat/outputmap"
 setwd(imgfolder)
 imglist <- list.files(imgfolder, pattern = "tif$")
 

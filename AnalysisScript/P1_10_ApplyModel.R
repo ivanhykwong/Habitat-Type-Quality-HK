@@ -22,7 +22,7 @@ sloperas <- raster("D:/landsat/dtm/slope_30m.tif")
 northras <- raster("D:/landsat/dtm/north_30m.tif")
 predictors <- c("G", "R", "NIR", "ndvi","gndvi","glcm_mean","glcm_con", "Slope", "Northness")
 
-predictlandsat <- function(imgname, predictors, rf_model){
+predictlandsat <- function(imgname, predictors, rf_model, outfolder){
   img <- stack(list(imgname, sloperas, northras))
   # check sensor and assign bands
   sensorname <- substr(imgname, 20, 21)
@@ -34,47 +34,11 @@ predictlandsat <- function(imgname, predictors, rf_model){
   } else if (sensorname == "OL"){
     names(img) <- append(c("C","B","G","R","NIR","SW1","SW2"), addvar)
   }
-  
-  # extract image month
-  imgmonth <- as.numeric(substr(imgname, 13, 14))
-  if ((imgmonth <= 3)|(imgmonth >= 10)){
-    monthclass <- "dry"
-  } else {monthclass <- "wet"}
 
-  # predictors
-  p_yes <- predictors
-  if("Slope" %in% p_yes == F){p_yes <- append(p_yes,"Slope")}
-  if("Northness" %in% p_yes == F){p_yes <- append(p_yes,"Northness")}
-  p_no <- predictors
-  if("Slope" %in% p_no == T){p_no <- p_no[!p_no == "Slope"]}
-  if("Northness" %in% p_no == T){p_no <- p_no[!p_no == "Northness"]}
-  
-  # choose model
-  if (monthclass == "wet"){
-    modeluse_t <- rf_model$wet_withtopo$finalModel
-    modeluse_nt <- rf_model$wet_notopo$finalModel
-  } else {
-    modeluse_t <- rf_model$dry_withtopo$finalModel
-    modeluse_nt <- rf_model$dry_notopo$finalModel
-  }
-  
   # apply model
-  if (sensorname == "OL"){
-    outname <- gsub("_hk1980.tif","_prob_t.tif",imgname)             # check L8 name
-  } else {
-    outname <- gsub("_calvar.tif","_prob_t.tif",imgname)
-  }
-  raster::predict(img[[p_yes]], model = modeluse_t, type="prob",     # with topo
-                 filename = file.path(outfolder,outname), 
-                 index=1:6, na.rm=TRUE)                               
-  if (sensorname == "OL"){
-    outname <- gsub("_hk1980.tif","_prob_nt.tif",imgname)            # check L8 name
-  } else {
-    outname <- gsub("_calvar.tif","_prob_nt.tif",imgname)
-  }
-  raster::predict(img[[p_no]], model = modeluse_nt, type="prob",     # without topo 
-                 filename = file.path(outfolder,outname),
-                 index=1:6, na.rm=TRUE)                              
+  raster::predict(img[[predictors]], model = rf_model, type="prob",
+                 filename = file.path(outfolder,paste0(imgname,"_prob")),
+                 index=1:6, na.rm=TRUE)
   print(paste0("Finish: ", imgname))
 }
 
@@ -85,7 +49,7 @@ cl <- parallel::makeCluster(3)
 doParallel::registerDoParallel(cl)
 foreach (i=1:length(imglist), .packages=c("raster","randomForest")) %dopar% {
   imgname <- imglist[i]
-  predictlandsat(imgname, predictors, rf_model)
+  predictlandsat(imgname, predictors, rf_model, outfolder)
 }
 parallel::stopCluster(cl)
 
@@ -140,6 +104,11 @@ fillna_prob_allband <- function(ras){
   return(ras)
 }
 
+relprob <- function(ras){
+  totalprob <- sum(ras)
+  return(ras/totalprob)
+}
+
 startyear1 <- c(1973,1978,1983,1988,1993,1998,2003,2008,2013,2018)
 endyear1 <- c(1977,1982,1987,1992,1997,2002,2007,2012,2017,2022)
 probmaplist <- list()
@@ -148,16 +117,13 @@ for (i in 1:10){
   endyear <- endyear1[i]
   outputprobmap <- calcsum(imglist, startyear, endyear)
   outputprobmap <- fillna_prob_allband(outputprobmap)
+  outputprobmap <- relprob(outputprobmap)
   probmaplist[[i]] <- outputprobmap
 }
 
 # Temporal smoothing and get highest prob class
-relprob <- function(ras){
-  totalprob <- sum(ras)
-  return(ras/totalprob)
-}
+
 setwd("D:/landsat/outputmap")
-probmaplist <- lapply(probmaplist, relprob)
 for (i in 1:10){
   startyear <- startyear1[i]
   endyear <- endyear1[i]
