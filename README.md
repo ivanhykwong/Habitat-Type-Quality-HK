@@ -90,7 +90,7 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 *   **HabitatMapHK_OfficeInterpretedReferenceData.csv**: Reference points where the habitat class in each period was determined through visual interpretation of the aerial photographs and other historical records. The points were used for both training and validation of the habitat maps in this study.
 
-*   **HabitatMapHK_PredictionsFromProcedures.csv**: Prediction results for each reference points in each period when different mapping procedures were implemented.
+*   **HabitatMapHK_PredictionsFromProcedures.csv**: Prediction results for each reference point in each period when different mapping procedures were implemented.
 
 *   **HabitatQualityHK_FieldSurveyedEcologicalValue2008.csv**: Field survey records of ecological values in 2008 which were used to evaluate the habitat quality maps in this study.
 
@@ -244,4 +244,4 @@ All datasets were collected and compiled from January to June 2024 and represent
 
 ---
 
-*Last updated in May 2025*
+*Last updated in December 2025*
