@@ -2,11 +2,13 @@
 
 # Under Development
 
-Supplementary materials used in the following studies:
+**Supplementary materials used in the following studies:**
 
-Kwong, I. H. Y. (in progress). *Spatio-Temporal Changes in Habitat Type and Quality in Hong Kong Using a 50-Year Archive of Remote Sensing Imagery* [Doctoral thesis, Department of Geography and Resource Management, The Chinese University of Hong Kong].
+Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (Manuscript submitted for publication). Integrating five decades of Landsat imagery for territory-wide habitat mapping and change detection in a subtropical metropolitan city.
 
-**Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (2025). Spatial variations in forest succession rates revealed from multi-temporal habitat maps using Landsat imagery in subtropical Hong Kong. European Geosciences Union (EGU) General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025. https://doi.org/10.5194/egusphere-egu25-2667. [Poster Presentation: https://presentations.copernicus.org/EGU25/EGU25-2667_presentation-h291057.pdf]**
+Kwong, I. H. Y. (2025). *Spatio-Temporal Changes in Habitat Type and Quality in Hong Kong Using a 50-Year Archive of Remote Sensing Imagery* [Doctoral thesis, Department of Geography and Resource Management, The Chinese University of Hong Kong]. https://repository.lib.cuhk.edu.hk/en/item/cuhk-3584537.
+
+Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (2025). Spatial variations in forest succession rates revealed from multi-temporal habitat maps using Landsat imagery in subtropical Hong Kong. European Geosciences Union (EGU) General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025. https://doi.org/10.5194/egusphere-egu25-2667. [Poster Presentation: https://presentations.copernicus.org/EGU25/EGU25-2667_presentation-h291057.pdf]
 
 ---
 
