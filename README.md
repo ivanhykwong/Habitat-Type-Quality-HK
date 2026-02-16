@@ -1,8 +1,6 @@
 # Spatio-Temporal Changes in Habitat Type and Quality in Hong Kong (1973-2022)
 
-# Under Development
-
-**Supplementary materials used in the following studies:**
+# Supplementary materials used in the following studies:
 
 Kwong, I. H. Y., Lai, D. Y. F., Wong, F. K. K., & Fung, T. (Manuscript submitted for publication). **Multi-temporal assessment of habitat quality in Hong Kong using the InVEST model and multi-taxa citizen science data**.
 
